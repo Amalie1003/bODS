@@ -1,0 +1,10 @@
+Log file created at: 2023/02/23 23:56:14
+Running on machine: ubuntu
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I20230223 23:56:14.689074 28057 test_omap.cpp:49] [client]init begin
+I20230223 23:56:14.845378 28057 precompute.cpp:61] P1=1893,P2=65,C=10
+E20230223 23:56:14.845502 28057 client.cpp:50] Error: socket
+I20230223 23:56:14.863104 28057 test_omap.cpp:54] [client]init finished
+I20230223 23:56:14.878281 28057 test_omap.cpp:76] begin insert (Vinay_035,1)
+I20230223 23:56:14.878502 28057 client.cpp:93] ---开始第一个数据插入---

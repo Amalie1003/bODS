@@ -1,0 +1,4 @@
+1. Bid-->string-->vector
+2. no bug--通信
+3. log
+4. pass!

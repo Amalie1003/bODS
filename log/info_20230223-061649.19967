@@ -1,0 +1,85 @@
+Log file created at: 2023/02/23 06:16:49
+Running on machine: ubuntu
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I20230223 06:16:49.176486 19967 test_omap.cpp:49] [client]init begin
+I20230223 06:16:49.177292 19967 precompute.cpp:61] P1=8,P2=6,C=1
+I20230223 06:16:49.177385 19967 client.cpp:54] ...connect
+I20230223 06:16:49.177399 19967 test_omap.cpp:54] [client]init finished
+I20230223 06:16:49.183498 19967 test_omap.cpp:76] begin insert (Vinay_035,1)
+I20230223 06:16:49.183570 19967 client.cpp:93] ---开始第一个数据插入---
+I20230223 06:16:49.183655 19967 client.cpp:574] [leaf]send and fetch leafpath:31
+I20230223 06:16:49.183835 19967 client.cpp:584] [leaf]receive leaforam bits:3808
+I20230223 06:16:49.184211 19967 client.cpp:524] [mid2]send and fetch mid2path:1
+I20230223 06:16:49.184342 19967 client.cpp:534] [mid2]receive mid2oram bits:2240
+I20230223 06:16:49.184607 19967 client.cpp:474] [mid1]send and fetch mid1path:1
+I20230223 06:16:49.184741 19967 client.cpp:484] [mid1]receive mid1oram bits:1344
+I20230223 06:16:49.184950 19967 client.cpp:474] [mid1]send and fetch mid1path:1
+I20230223 06:16:49.185052 19967 client.cpp:480] [mid1]receive NONE.
+I20230223 06:16:49.185158 19967 client.cpp:524] [mid2]send and fetch mid2path:6
+I20230223 06:16:49.185178 19967 client.cpp:534] [mid2]receive mid2oram bits:1344
+I20230223 06:16:49.185384 19967 client.cpp:574] [leaf]send and fetch leafpath:31
+I20230223 06:16:49.185487 19967 client.cpp:580] [leaf]receive NONE.
+I20230223 06:16:49.185510 19967 client.cpp:169] leaf Vinay_035: pos=23
+I20230223 06:16:49.185528 19967 client.cpp:178] mid2 Vinay_035: pos=1
+I20230223 06:16:49.185544 19967 client.cpp:182] Vinay_035
+I20230223 06:16:49.185567 19967 client.cpp:204] mid1 Vinay_035: pos=0
+I20230223 06:16:49.185582 19967 client.cpp:208] Vinay_035
+I20230223 06:16:49.185597 19967 client.cpp:216] root Vinay_035:pos=
+I20230223 06:16:49.185612 19967 client.cpp:220] Vinay_035
+I20230223 06:16:49.185627 19967 client.cpp:226] -----mid1oram-finalize2-----
+I20230223 06:16:49.185664 19967 client.cpp:638] [mid1]plan to write bucket to store: 2
+I20230223 06:16:49.185760 19967 client.cpp:651] [mid1]send ciphertext 451 bits
+I20230223 06:16:49.185873 19967 client.cpp:655] [mid1]Send Success!!!
+I20230223 06:16:49.185899 19967 client.cpp:638] [mid1]plan to write bucket to store: 0
+I20230223 06:16:49.186009 19967 client.cpp:651] [mid1]send ciphertext 451 bits
+I20230223 06:16:49.186030 19967 client.cpp:655] [mid1]Send Success!!!
+I20230223 06:16:49.186048 19967 client.cpp:228] -----mid2oram-finalize2-----
+I20230223 06:16:49.186067 19967 client.cpp:685] [mid2]plan to write bucket to store: 8
+I20230223 06:16:49.186177 19967 client.cpp:698] [mid2]send ciphertext 451 bits
+I20230223 06:16:49.186198 19967 client.cpp:702] [mid2]Send Success!!!
+I20230223 06:16:49.186218 19967 client.cpp:685] [mid2]plan to write bucket to store: 13
+I20230223 06:16:49.186324 19967 client.cpp:698] [mid2]send ciphertext 452 bits
+I20230223 06:16:49.186344 19967 client.cpp:702] [mid2]Send Success!!!
+I20230223 06:16:49.186362 19967 client.cpp:685] [mid2]plan to write bucket to store: 3
+I20230223 06:16:49.186470 19967 client.cpp:698] [mid2]send ciphertext 451 bits
+I20230223 06:16:49.186489 19967 client.cpp:702] [mid2]Send Success!!!
+I20230223 06:16:49.186508 19967 client.cpp:685] [mid2]plan to write bucket to store: 6
+I20230223 06:16:49.186614 19967 client.cpp:698] [mid2]send ciphertext 451 bits
+I20230223 06:16:49.186635 19967 client.cpp:702] [mid2]Send Success!!!
+I20230223 06:16:49.186652 19967 client.cpp:685] [mid2]plan to write bucket to store: 1
+I20230223 06:16:49.186771 19967 client.cpp:698] [mid2]send ciphertext 451 bits
+I20230223 06:16:49.186790 19967 client.cpp:702] [mid2]Send Success!!!
+I20230223 06:16:49.186808 19967 client.cpp:685] [mid2]plan to write bucket to store: 2
+I20230223 06:16:49.186916 19967 client.cpp:698] [mid2]send ciphertext 451 bits
+I20230223 06:16:49.186935 19967 client.cpp:702] [mid2]Send Success!!!
+I20230223 06:16:49.186954 19967 client.cpp:685] [mid2]plan to write bucket to store: 0
+I20230223 06:16:49.187067 19967 client.cpp:698] [mid2]send ciphertext 451 bits
+I20230223 06:16:49.187086 19967 client.cpp:702] [mid2]Send Success!!!
+I20230223 06:16:49.187103 19967 client.cpp:230] -----leaforam-finalize2-----
+I20230223 06:16:49.187121 19967 client.cpp:732] [leaf]plan to write bucket to store: 94
+I20230223 06:16:49.187232 19967 client.cpp:745] [leaf]send ciphertext 548 bits
+I20230223 06:16:49.187250 19967 client.cpp:749] [leaf]Send Success!!!
+I20230223 06:16:49.187270 19967 client.cpp:732] [leaf]plan to write bucket to store: 46
+I20230223 06:16:49.187378 19967 client.cpp:745] [leaf]send ciphertext 548 bits
+I20230223 06:16:49.187397 19967 client.cpp:749] [leaf]Send Success!!!
+I20230223 06:16:49.187417 19967 client.cpp:732] [leaf]plan to write bucket to store: 22
+I20230223 06:16:49.187523 19967 client.cpp:745] [leaf]send ciphertext 548 bits
+I20230223 06:16:49.187542 19967 client.cpp:749] [leaf]Send Success!!!
+I20230223 06:16:49.187562 19967 client.cpp:732] [leaf]plan to write bucket to store: 10
+I20230223 06:16:49.187682 19967 client.cpp:745] [leaf]send ciphertext 548 bits
+I20230223 06:16:49.187702 19967 client.cpp:749] [leaf]Send Success!!!
+I20230223 06:16:49.187726 19967 client.cpp:732] [leaf]plan to write bucket to store: 4
+I20230223 06:16:49.187840 19967 client.cpp:745] [leaf]send ciphertext 547 bits
+I20230223 06:16:49.187860 19967 client.cpp:749] [leaf]Send Success!!!
+I20230223 06:16:49.187881 19967 client.cpp:732] [leaf]plan to write bucket to store: 1
+I20230223 06:16:49.187997 19967 client.cpp:745] [leaf]send ciphertext 547 bits
+I20230223 06:16:49.188017 19967 client.cpp:749] [leaf]Send Success!!!
+I20230223 06:16:49.188036 19967 client.cpp:732] [leaf]plan to write bucket to store: 0
+I20230223 06:16:49.188144 19967 client.cpp:745] [leaf]send ciphertext 547 bits
+I20230223 06:16:49.188163 19967 client.cpp:749] [leaf]Send Success!!!
+I20230223 06:16:49.188182 19967 test_omap.cpp:76] begin insert (123456,67851)
+I20230223 06:16:49.188288 19967 client.cpp:474] [mid1]send and fetch mid1path:0
+I20230223 06:16:49.188308 19967 client.cpp:484] [mid1]receive mid1oram bits:1344
+I20230223 06:16:49.188483 19967 client.cpp:524] [mid2]send and fetch mid2path:1
+I20230223 06:16:49.188596 19967 client.cpp:534] [mid2]receive mid2oram bits:2240

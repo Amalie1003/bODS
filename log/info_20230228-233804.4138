@@ -1,0 +1,19 @@
+Log file created at: 2023/02/28 23:38:04
+Running on machine: ubuntu
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I20230228 23:38:04.081813  4138 test_omap.cpp:49] [client]init begin
+I20230228 23:38:04.082540  4138 precompute.cpp:61] P1=20,P2=2,C=1
+I20230228 23:38:04.082676  4138 client.cpp:54] ...connect
+I20230228 23:38:04.082720  4138 test_omap.cpp:54] [client]init finished
+I20230228 23:38:04.082747  4138 test_omap.cpp:76] begin insert (Vinay_035,1)
+I20230228 23:38:04.088279  4138 test_omap.cpp:76] begin insert (123456,67851)
+I20230228 23:38:04.091106  4138 test_omap.cpp:76] begin insert (kumar1096,1)
+I20230228 23:38:04.096350  4138 test_omap.cpp:76] begin insert (mbtmbt,47)
+I20230228 23:38:04.099218  4138 test_omap.cpp:76] begin insert (test123,114)
+I20230228 23:38:04.102001  4138 test_omap.cpp:76] begin insert (changeme,235)
+I20230228 23:38:04.104137  4138 test_omap.cpp:76] begin insert (oooooo,1364)
+I20230228 23:38:04.106786  4138 test_omap.cpp:76] begin insert (science,68)
+I20230228 23:38:04.109704  4138 test_omap.cpp:76] begin insert (Manson-1,1)
+I20230228 23:38:04.119293  4138 test_omap.cpp:90] find Manson-1 and the value is:1
+I20230228 23:38:04.119524  4138 client.cpp:64] [client]send over

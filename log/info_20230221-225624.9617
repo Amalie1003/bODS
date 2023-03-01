@@ -1,0 +1,9 @@
+Log file created at: 2023/02/21 22:56:24
+Running on machine: ubuntu
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I20230221 22:56:24.440644  9617 test_omap.cpp:49] [client]init begin
+I20230221 22:56:24.441462  9617 precompute.cpp:61] P1=8,P2=6,C=1
+I20230221 22:56:24.441589  9617 client.cpp:53] ...connect
+I20230221 22:56:42.965287  9617 test_omap.cpp:54] [client]init finished
+I20230221 22:56:42.973417  9617 test_omap.cpp:74] begin insert (key,value)

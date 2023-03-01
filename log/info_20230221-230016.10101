@@ -1,0 +1,25 @@
+Log file created at: 2023/02/21 23:00:16
+Running on machine: ubuntu
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I20230221 23:00:16.663074 10101 test_omap.cpp:49] [client]init begin
+I20230221 23:00:16.663928 10101 precompute.cpp:61] P1=8,P2=6,C=1
+I20230221 23:00:16.664175 10101 client.cpp:53] ...connect
+I20230221 23:00:16.664194 10101 test_omap.cpp:54] [client]init finished
+I20230221 23:00:16.664244 10101 test_omap.cpp:76] begin insert (Vinay_035,1)
+I20230221 23:00:16.664274 10101 client.cpp:83] ---开始第一个数据插入---
+I20230221 23:00:16.664458 10101 client.cpp:561] [leaf]send and fetch leafpath:18
+I20230221 23:00:16.664477 10101 client.cpp:573] [leaf]receive leaforam bits:3808
+I20230221 23:00:16.664968 10101 client.cpp:509] [mid2]send and fetch mid2path:5
+I20230221 23:00:16.664996 10101 client.cpp:521] [mid2]receive mid2oram bits:1792
+I20230221 23:00:16.665354 10101 client.cpp:456] [mid1]send and fetch mid1path:1
+I20230221 23:00:16.665370 10101 client.cpp:468] [mid1]receive mid1oram bits:896
+I20230221 23:00:16.665473 10101 test_omap.cpp:76] begin insert (123456,67851)
+I20230221 23:00:16.665694 10101 client.cpp:561] [leaf]send and fetch leafpath:50
+I20230221 23:00:16.665714 10101 client.cpp:573] [leaf]receive leaforam bits:3264
+I20230221 23:00:16.666004 10101 test_omap.cpp:76] begin insert (kumar1096,1)
+I20230221 23:00:16.666393 10101 client.cpp:561] [leaf]send and fetch leafpath:11
+I20230221 23:00:16.666414 10101 client.cpp:573] [leaf]receive leaforam bits:3808
+I20230221 23:00:16.666800 10101 test_omap.cpp:76] begin insert (mbtmbt,47)
+I20230221 23:00:16.666930 10101 client.cpp:456] [mid1]send and fetch mid1path:1
+I20230221 23:00:16.666939 10101 client.cpp:463] [mid1]receive NONE.

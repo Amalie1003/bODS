@@ -1,0 +1,7 @@
+Log file created at: 2023/02/27 23:24:48
+Running on machine: ubuntu
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I20230227 23:24:48.878226 10360 precompute.cpp:61] P1=32,P2=5,C=1
+I20230227 23:24:48.880990 10360 server.cpp:42] ...listening...
+I20230227 23:24:54.167544 10360 server.cpp:51] ...connect 127.0.0.1:37468

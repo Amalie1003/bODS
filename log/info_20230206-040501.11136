@@ -1,0 +1,45 @@
+Log file created at: 2023/02/06 04:05:01
+Running on machine: ubuntu
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I20230206 04:05:01.317378 11136 precompute.cpp:61] P1=8,P2=6,C=1
+I20230206 04:05:01.318966 11136 server.cpp:42] ...listening...
+I20230206 04:05:06.955883 11136 server.cpp:51] ...connect 127.0.0.1:34282
+I20230206 04:05:06.955976 11136 server.cpp:68] [server] receives 3 bits:
+I20230206 04:05:06.956004 11136 server.cpp:96] Begin fetch leaforam path:61
+I20230206 04:05:06.956073 11136 ORAM.cpp:94] Send 3808 bits
+I20230206 04:05:06.956094 11136 server.cpp:98] Finish fetch leaforam path:61
+I20230206 04:05:06.956488 11136 server.cpp:68] [server] receives 2 bits:
+I20230206 04:05:06.956501 11136 server.cpp:89] Begin fetch oram2 path:6
+I20230206 04:05:06.956521 11136 ORAM.cpp:94] Send 1792 bits
+I20230206 04:05:06.956527 11136 server.cpp:91] Finish fetch oram2 path:6
+I20230206 04:05:06.956768 11136 server.cpp:68] [server] receives 2 bits:
+I20230206 04:05:06.956779 11136 server.cpp:81] Begin fetch oram1 path:0
+I20230206 04:05:06.956794 11136 ORAM.cpp:94] Send 896 bits
+I20230206 04:05:06.956799 11136 server.cpp:83] Finish fetch oram1 path:0
+I20230206 04:05:06.956920 11136 server.cpp:68] [server] receives 2 bits:
+I20230206 04:05:06.956948 11136 server.cpp:81] Begin fetch oram1 path:0
+I20230206 04:05:06.956962 11136 ORAM.cpp:94] Send 1 bits
+I20230206 04:05:06.956969 11136 server.cpp:83] Finish fetch oram1 path:0
+I20230206 04:05:06.956985 11136 server.cpp:68] [server] receives 2 bits:
+I20230206 04:05:06.956991 11136 server.cpp:89] Begin fetch oram2 path:6
+I20230206 04:05:06.957000 11136 ORAM.cpp:94] Send 1 bits
+I20230206 04:05:06.957005 11136 server.cpp:91] Finish fetch oram2 path:6
+I20230206 04:05:06.957019 11136 server.cpp:68] [server] receives 3 bits:
+I20230206 04:05:06.957036 11136 server.cpp:96] Begin fetch leaforam path:16
+I20230206 04:05:06.957068 11136 ORAM.cpp:94] Send 3264 bits
+I20230206 04:05:06.957087 11136 server.cpp:98] Finish fetch leaforam path:16
+I20230206 04:05:38.617482 11136 server.cpp:68] [server] receives 451 bits:
+I20230206 04:05:38.617558 11136 server.cpp:112] Begin Write to oram1-RAMstore : index = 1
+I20230206 04:05:38.617568 11136 server.cpp:114] Finish Write to oram1-RAMstore : index = 1
+I20230206 04:07:23.614378 11136 server.cpp:68] [server] receives 451 bits:
+I20230206 04:07:43.768034 11136 server.cpp:112] Begin Write to oram1-RAMstore : index = 0
+I20230206 04:07:43.768126 11136 server.cpp:114] Finish Write to oram1-RAMstore : index = 0
+I20230206 04:08:09.047380 11136 server.cpp:68] [server] receives 8926 bits:
+I20230206 04:08:09.047545 11136 server.cpp:81] Begin fetch oram1 path:0
+I20230206 04:08:09.047662 11136 ORAM.cpp:94] Send 896 bits
+I20230206 04:08:09.047688 11136 server.cpp:83] Finish fetch oram1 path:0
+I20230206 04:08:27.368999 11136 server.cpp:68] [server] receives 2 bits:
+I20230206 04:08:27.369076 11136 server.cpp:89] Begin fetch oram2 path:6
+I20230206 04:08:27.369151 11136 ORAM.cpp:94] Send 1792 bits
+I20230206 04:08:27.369170 11136 server.cpp:91] Finish fetch oram2 path:6

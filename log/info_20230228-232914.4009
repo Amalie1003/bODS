@@ -1,0 +1,6 @@
+Log file created at: 2023/02/28 23:29:14
+Running on machine: ubuntu
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I20230228 23:29:14.967468  4009 precompute.cpp:61] P1=62,P2=8,C=2
+E20230228 23:29:14.977766  4009 server.cpp:29] ERROR bind

@@ -1,0 +1,55 @@
+Log file created at: 2023/02/06 04:16:44
+Running on machine: ubuntu
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I20230206 04:16:44.657780 11827 precompute.cpp:61] P1=8,P2=6,C=1
+I20230206 04:16:44.659471 11827 server.cpp:42] ...listening...
+I20230206 04:16:51.487717 11827 server.cpp:51] ...connect 127.0.0.1:34340
+I20230206 04:16:51.487787 11827 server.cpp:68] [server] receives 3 bits:
+I20230206 04:16:51.487809 11827 server.cpp:96] Begin fetch leaforam path:28
+I20230206 04:16:51.487876 11827 ORAM.cpp:94] Send 3808 bits
+I20230206 04:16:51.487892 11827 server.cpp:98] Finish fetch leaforam path:28
+I20230206 04:16:51.488317 11827 server.cpp:68] [server] receives 2 bits:
+I20230206 04:16:51.488337 11827 server.cpp:89] Begin fetch oram2 path:0
+I20230206 04:16:51.488374 11827 ORAM.cpp:94] Send 1792 bits
+I20230206 04:16:51.488384 11827 server.cpp:91] Finish fetch oram2 path:0
+I20230206 04:16:51.488590 11827 server.cpp:68] [server] receives 2 bits:
+I20230206 04:16:51.488626 11827 server.cpp:81] Begin fetch oram1 path:0
+I20230206 04:16:51.488664 11827 ORAM.cpp:94] Send 896 bits
+I20230206 04:16:51.488678 11827 server.cpp:83] Finish fetch oram1 path:0
+I20230206 04:16:51.488791 11827 server.cpp:68] [server] receives 2 bits:
+I20230206 04:16:51.488816 11827 server.cpp:81] Begin fetch oram1 path:0
+I20230206 04:16:51.488842 11827 ORAM.cpp:94] Send 1 bits
+I20230206 04:16:51.488858 11827 server.cpp:83] Finish fetch oram1 path:0
+I20230206 04:16:51.488893 11827 server.cpp:68] [server] receives 2 bits:
+I20230206 04:16:51.488903 11827 server.cpp:89] Begin fetch oram2 path:3
+I20230206 04:16:51.488929 11827 ORAM.cpp:94] Send 896 bits
+I20230206 04:16:51.488937 11827 server.cpp:91] Finish fetch oram2 path:3
+I20230206 04:16:51.489050 11827 server.cpp:68] [server] receives 3 bits:
+I20230206 04:16:51.489073 11827 server.cpp:96] Begin fetch leaforam path:23
+I20230206 04:16:51.489104 11827 ORAM.cpp:94] Send 2176 bits
+I20230206 04:16:51.489122 11827 server.cpp:98] Finish fetch leaforam path:23
+I20230206 04:17:21.252585 11827 server.cpp:68] [server] receives 451 bits:
+I20230206 04:17:21.253093 11827 server.cpp:112] Begin Write to oram1-RAMstore : index = 1
+I20230206 04:17:21.253188 11827 server.cpp:114] Finish Write to oram1-RAMstore : index = 1
+I20230206 04:17:40.726039 11827 server.cpp:68] [server] receives 451 bits:
+I20230206 04:17:40.726115 11827 server.cpp:112] Begin Write to oram1-RAMstore : index = 0
+I20230206 04:17:40.726136 11827 server.cpp:114] Finish Write to oram1-RAMstore : index = 0
+I20230206 04:18:01.865856 11827 server.cpp:68] [server] receives 451 bits:
+I20230206 04:18:01.866083 11827 server.cpp:118] Begin Write to oram2-RAMstore : index = 7
+I20230206 04:18:01.866124 11827 server.cpp:120] Finish Write to oram2-RAMstore : index = 7
+I20230206 04:18:05.429975 11827 server.cpp:68] [server] receives 903 bits:
+I20230206 04:18:05.430219 11827 server.cpp:118] Begin Write to oram2-RAMstore : index = 3
+I20230206 04:18:05.430248 11827 server.cpp:120] Finish Write to oram2-RAMstore : index = 3
+I20230206 04:18:13.885035 11827 server.cpp:68] [server] receives 451 bits:
+I20230206 04:18:13.885406 11827 server.cpp:118] Begin Write to oram2-RAMstore : index = 4
+I20230206 04:18:13.885541 11827 server.cpp:120] Finish Write to oram2-RAMstore : index = 4
+I20230206 04:18:31.872004 11827 server.cpp:68] [server] receives 451 bits:
+I20230206 04:18:31.872321 11827 server.cpp:118] Begin Write to oram2-RAMstore : index = 1
+I20230206 04:18:31.872356 11827 server.cpp:120] Finish Write to oram2-RAMstore : index = 1
+I20230206 04:18:56.826663 11827 server.cpp:68] [server] receives 451 bits:
+I20230206 04:18:56.827050 11827 server.cpp:118] Begin Write to oram2-RAMstore : index = 0
+I20230206 04:18:56.827104 11827 server.cpp:120] Finish Write to oram2-RAMstore : index = 0
+I20230206 04:18:59.193123 11827 server.cpp:68] [server] receives 1096 bits:
+I20230206 04:18:59.193291 11827 server.cpp:125] Begin Write to leaforam-RAMstore : index = 86
+I20230206 04:18:59.193316 11827 server.cpp:127] Finish Write to leaforam-RAMstore : index = 86

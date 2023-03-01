@@ -1,0 +1,11 @@
+Log file created at: 2023/02/24 03:08:33
+Running on machine: ubuntu
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I20230224 03:08:33.934068  3341 precompute.cpp:61] P1=1893,P2=65,C=10
+I20230224 03:08:46.239356  3341 server.cpp:42] ...listening...
+I20230224 03:08:55.699986  3341 server.cpp:51] ...connect 127.0.0.1:33554
+I20230224 03:08:55.720161  3341 server.cpp:68] [server] receives 7 bits:
+I20230224 03:08:55.720211  3341 server.cpp:96] Begin fetch leaforam path:885393
+I20230224 03:08:55.720314  3341 ORAM.cpp:94] Send 11424 bits
+I20230224 03:08:55.720345  3341 server.cpp:98] Finish fetch leaforam path:885393

@@ -1,0 +1,31 @@
+Log file created at: 2023/02/21 23:00:00
+Running on machine: ubuntu
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I20230221 23:00:00.138428 10020 precompute.cpp:61] P1=8,P2=6,C=1
+I20230221 23:00:00.140092 10020 server.cpp:42] ...listening...
+I20230221 23:00:16.664108 10020 server.cpp:51] ...connect 127.0.0.1:51814
+I20230221 23:00:16.664326 10020 server.cpp:68] [server] receives 3 bits:
+I20230221 23:00:16.664350 10020 server.cpp:96] Begin fetch leaforam path:18
+I20230221 23:00:16.664400 10020 ORAM.cpp:94] Send 3808 bits
+I20230221 23:00:16.664428 10020 server.cpp:98] Finish fetch leaforam path:18
+I20230221 23:00:16.664819 10020 server.cpp:68] [server] receives 2 bits:
+I20230221 23:00:16.664849 10020 server.cpp:89] Begin fetch oram2 path:5
+I20230221 23:00:16.664881 10020 ORAM.cpp:94] Send 1792 bits
+I20230221 23:00:16.664899 10020 server.cpp:91] Finish fetch oram2 path:5
+I20230221 23:00:16.665259 10020 server.cpp:68] [server] receives 2 bits:
+I20230221 23:00:16.665288 10020 server.cpp:81] Begin fetch oram1 path:1
+I20230221 23:00:16.665315 10020 ORAM.cpp:94] Send 896 bits
+I20230221 23:00:16.665333 10020 server.cpp:83] Finish fetch oram1 path:1
+I20230221 23:00:16.665552 10020 server.cpp:68] [server] receives 3 bits:
+I20230221 23:00:16.665572 10020 server.cpp:96] Begin fetch leaforam path:50
+I20230221 23:00:16.665604 10020 ORAM.cpp:94] Send 3264 bits
+I20230221 23:00:16.665623 10020 server.cpp:98] Finish fetch leaforam path:50
+I20230221 23:00:16.666057 10020 server.cpp:68] [server] receives 3 bits:
+I20230221 23:00:16.666101 10020 server.cpp:96] Begin fetch leaforam path:11
+I20230221 23:00:16.666172 10020 ORAM.cpp:94] Send 3808 bits
+I20230221 23:00:16.666193 10020 server.cpp:98] Finish fetch leaforam path:11
+I20230221 23:00:16.666831 10020 server.cpp:68] [server] receives 2 bits:
+I20230221 23:00:16.666839 10020 server.cpp:81] Begin fetch oram1 path:1
+I20230221 23:00:16.666849 10020 ORAM.cpp:94] Send 1 bits
+I20230221 23:00:16.666853 10020 server.cpp:83] Finish fetch oram1 path:1

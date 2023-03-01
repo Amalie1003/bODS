@@ -26,8 +26,8 @@ int main()
 		FLAGS_alsologtostderr = false;
 	#else
 		std::cout << "Build-DEBUG" << std::endl;
-		FLAGS_alsologtostderr = true;
-		FLAGS_colorlogtostderr = true;
+		FLAGS_alsologtostderr = false;
+		// FLAGS_colorlogtostderr = true;
 	#endif
 	FLAGS_log_dir = "log";
 
@@ -37,7 +37,7 @@ int main()
     google::SetLogDestination(google::GLOG_WARNING, "log/warn_");
     google::SetLogDestination(google::GLOG_ERROR, "log/errr_");
 
-    std::vector<int> params = param_bODS(10*4);
+    std::vector<int> params = param_bODS(10);
     P1 = params[0];
     P2 = params[1];
     C = params[2];

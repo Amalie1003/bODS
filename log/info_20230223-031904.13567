@@ -1,0 +1,2195 @@
+Log file created at: 2023/02/23 03:19:04
+Running on machine: ubuntu
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I20230223 03:19:04.730424 13567 precompute.cpp:61] P1=8,P2=6,C=1
+I20230223 03:19:04.732031 13567 server.cpp:42] ...listening...
+I20230223 03:19:11.395164 13567 server.cpp:51] ...connect 127.0.0.1:47854
+I20230223 03:19:11.395251 13567 server.cpp:68] [server] receives 3 bits:
+I20230223 03:19:11.395263 13567 server.cpp:96] Begin fetch leaforam path:45
+I20230223 03:19:11.395305 13567 ORAM.cpp:94] Send 3808 bits
+I20230223 03:19:11.395311 13567 server.cpp:98] Finish fetch leaforam path:45
+I20230223 03:19:11.395732 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.395742 13567 server.cpp:89] Begin fetch oram2 path:5
+I20230223 03:19:11.395764 13567 ORAM.cpp:94] Send 1792 bits
+I20230223 03:19:11.395771 13567 server.cpp:91] Finish fetch oram2 path:5
+I20230223 03:19:11.396023 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.396032 13567 server.cpp:81] Begin fetch oram1 path:1
+I20230223 03:19:11.396049 13567 ORAM.cpp:94] Send 896 bits
+I20230223 03:19:11.396054 13567 server.cpp:83] Finish fetch oram1 path:1
+I20230223 03:19:11.396198 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.396209 13567 server.cpp:81] Begin fetch oram1 path:0
+I20230223 03:19:11.396222 13567 ORAM.cpp:94] Send 448 bits
+I20230223 03:19:11.396227 13567 server.cpp:83] Finish fetch oram1 path:0
+I20230223 03:19:11.396315 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.396322 13567 server.cpp:89] Begin fetch oram2 path:7
+I20230223 03:19:11.396335 13567 ORAM.cpp:94] Send 896 bits
+I20230223 03:19:11.396342 13567 server.cpp:91] Finish fetch oram2 path:7
+I20230223 03:19:11.396461 13567 server.cpp:68] [server] receives 3 bits:
+I20230223 03:19:11.396467 13567 server.cpp:96] Begin fetch leaforam path:10
+I20230223 03:19:11.396487 13567 ORAM.cpp:94] Send 3264 bits
+I20230223 03:19:11.396492 13567 server.cpp:98] Finish fetch leaforam path:10
+I20230223 03:19:11.396904 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.396940 13567 server.cpp:113] Begin Write to oram1-RAMstore : index = 2
+I20230223 03:19:11.396961 13567 server.cpp:115] Finish Write to oram1-RAMstore : index = 2
+I20230223 03:19:11.396996 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.397059 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.397069 13567 server.cpp:113] Begin Write to oram1-RAMstore : index = 1
+I20230223 03:19:11.397075 13567 server.cpp:115] Finish Write to oram1-RAMstore : index = 1
+I20230223 03:19:11.397083 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.397130 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.397136 13567 server.cpp:113] Begin Write to oram1-RAMstore : index = 0
+I20230223 03:19:11.397141 13567 server.cpp:115] Finish Write to oram1-RAMstore : index = 0
+I20230223 03:19:11.397148 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.397200 13567 server.cpp:68] [server] receives 452 bits:
+I20230223 03:19:11.397208 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 12
+I20230223 03:19:11.397213 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 12
+I20230223 03:19:11.397220 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.397264 13567 server.cpp:68] [server] receives 452 bits:
+I20230223 03:19:11.397270 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 14
+I20230223 03:19:11.397275 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 14
+I20230223 03:19:11.397282 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.397325 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.397330 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 5
+I20230223 03:19:11.397336 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 5
+I20230223 03:19:11.397343 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.397385 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.397392 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 6
+I20230223 03:19:11.397408 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 6
+I20230223 03:19:11.397416 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.397464 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.397470 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 2
+I20230223 03:19:11.397475 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 2
+I20230223 03:19:11.397482 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.397527 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.397536 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 0
+I20230223 03:19:11.397540 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 0
+I20230223 03:19:11.397547 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.397596 13567 server.cpp:68] [server] receives 549 bits:
+I20230223 03:19:11.397603 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 108
+I20230223 03:19:11.397608 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 108
+I20230223 03:19:11.397615 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.397658 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.397666 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 73
+I20230223 03:19:11.397671 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 73
+I20230223 03:19:11.397678 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.397727 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.397733 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 53
+I20230223 03:19:11.397738 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 53
+I20230223 03:19:11.397745 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.397794 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.397801 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 36
+I20230223 03:19:11.397807 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 36
+I20230223 03:19:11.397814 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.397884 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.397899 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 26
+I20230223 03:19:11.397905 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 26
+I20230223 03:19:11.397913 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.397974 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.397982 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 17
+I20230223 03:19:11.397987 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 17
+I20230223 03:19:11.397994 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.398042 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.398049 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 12
+I20230223 03:19:11.398054 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 12
+I20230223 03:19:11.398061 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.398109 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.398116 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 8
+I20230223 03:19:11.398121 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 8
+I20230223 03:19:11.398128 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.398180 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.398187 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 5
+I20230223 03:19:11.398192 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 5
+I20230223 03:19:11.398200 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.398247 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.398254 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 3
+I20230223 03:19:11.398259 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 3
+I20230223 03:19:11.398265 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.398312 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.398319 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 2
+I20230223 03:19:11.398329 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 2
+I20230223 03:19:11.398336 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.398384 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.398391 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 1
+I20230223 03:19:11.398396 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 1
+I20230223 03:19:11.398402 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.398450 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.398458 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 0
+I20230223 03:19:11.398463 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 0
+I20230223 03:19:11.398469 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.398514 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.398519 13567 server.cpp:81] Begin fetch oram1 path:0
+I20230223 03:19:11.398531 13567 ORAM.cpp:94] Send 896 bits
+I20230223 03:19:11.398536 13567 server.cpp:83] Finish fetch oram1 path:0
+I20230223 03:19:11.398679 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.398686 13567 server.cpp:89] Begin fetch oram2 path:5
+I20230223 03:19:11.398701 13567 ORAM.cpp:94] Send 1792 bits
+I20230223 03:19:11.398707 13567 server.cpp:91] Finish fetch oram2 path:5
+I20230223 03:19:11.398963 13567 server.cpp:68] [server] receives 3 bits:
+I20230223 03:19:11.398973 13567 server.cpp:96] Begin fetch leaforam path:38
+I20230223 03:19:11.398993 13567 ORAM.cpp:94] Send 3808 bits
+I20230223 03:19:11.398998 13567 server.cpp:98] Finish fetch leaforam path:38
+I20230223 03:19:11.399389 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.399401 13567 server.cpp:96] Begin fetch leaforam path:8
+I20230223 03:19:11.399432 13567 ORAM.cpp:94] Send 3264 bits
+I20230223 03:19:11.399451 13567 server.cpp:98] Finish fetch leaforam path:8
+I20230223 03:19:11.399788 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.399802 13567 server.cpp:81] Begin fetch oram1 path:1
+I20230223 03:19:11.399825 13567 ORAM.cpp:94] Send 448 bits
+I20230223 03:19:11.399843 13567 server.cpp:83] Finish fetch oram1 path:1
+I20230223 03:19:11.400066 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.400089 13567 server.cpp:89] Begin fetch oram2 path:1
+I20230223 03:19:11.400121 13567 ORAM.cpp:94] Send 1344 bits
+I20230223 03:19:11.400131 13567 server.cpp:91] Finish fetch oram2 path:1
+I20230223 03:19:11.400364 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.400386 13567 server.cpp:113] Begin Write to oram1-RAMstore : index = 1
+I20230223 03:19:11.400404 13567 server.cpp:115] Finish Write to oram1-RAMstore : index = 1
+I20230223 03:19:11.400424 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.400530 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.400552 13567 server.cpp:113] Begin Write to oram1-RAMstore : index = 2
+I20230223 03:19:11.400568 13567 server.cpp:115] Finish Write to oram1-RAMstore : index = 2
+I20230223 03:19:11.400586 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.400676 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.400697 13567 server.cpp:113] Begin Write to oram1-RAMstore : index = 0
+I20230223 03:19:11.400713 13567 server.cpp:115] Finish Write to oram1-RAMstore : index = 0
+I20230223 03:19:11.400732 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.400837 13567 server.cpp:68] [server] receives 452 bits:
+I20230223 03:19:11.400866 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 12
+I20230223 03:19:11.400882 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 12
+I20230223 03:19:11.400911 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.400995 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.401003 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 8
+I20230223 03:19:11.401008 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 8
+I20230223 03:19:11.401015 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.401068 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.401077 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 5
+I20230223 03:19:11.401082 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 5
+I20230223 03:19:11.401088 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.401126 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.401146 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 3
+I20230223 03:19:11.401163 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 3
+I20230223 03:19:11.401182 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.401321 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.401357 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 2
+I20230223 03:19:11.401376 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 2
+I20230223 03:19:11.401394 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.401520 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.401558 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 1
+I20230223 03:19:11.401576 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 1
+I20230223 03:19:11.401602 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.401716 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.401751 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 0
+I20230223 03:19:11.401768 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 0
+I20230223 03:19:11.401788 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.401911 13567 server.cpp:68] [server] receives 549 bits:
+I20230223 03:19:11.401934 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 101
+I20230223 03:19:11.401952 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 101
+I20230223 03:19:11.401973 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.402047 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.402071 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 71
+I20230223 03:19:11.402091 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 71
+I20230223 03:19:11.402127 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.402242 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.402266 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 50
+I20230223 03:19:11.402282 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 50
+I20230223 03:19:11.402294 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.402408 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.402431 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 35
+I20230223 03:19:11.402448 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 35
+I20230223 03:19:11.402467 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.402581 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.402604 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 24
+I20230223 03:19:11.402657 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 24
+I20230223 03:19:11.402676 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.402796 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.402817 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 17
+I20230223 03:19:11.402834 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 17
+I20230223 03:19:11.402863 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.403010 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.403044 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 11
+I20230223 03:19:11.403062 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 11
+I20230223 03:19:11.403082 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.403290 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.403311 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 8
+I20230223 03:19:11.403327 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 8
+I20230223 03:19:11.403352 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.403509 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.403532 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 5
+I20230223 03:19:11.403565 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 5
+I20230223 03:19:11.403615 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.403812 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.403857 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 3
+I20230223 03:19:11.403888 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 3
+I20230223 03:19:11.403908 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.404083 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.404147 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 2
+I20230223 03:19:11.404165 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 2
+I20230223 03:19:11.404182 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.404333 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.404363 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 1
+I20230223 03:19:11.404393 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 1
+I20230223 03:19:11.404412 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.404506 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.404531 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 0
+I20230223 03:19:11.404547 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 0
+I20230223 03:19:11.404568 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.404675 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.404700 13567 server.cpp:81] Begin fetch oram1 path:1
+I20230223 03:19:11.404731 13567 ORAM.cpp:94] Send 896 bits
+I20230223 03:19:11.404749 13567 server.cpp:83] Finish fetch oram1 path:1
+I20230223 03:19:11.404948 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.404974 13567 server.cpp:89] Begin fetch oram2 path:6
+I20230223 03:19:11.405005 13567 ORAM.cpp:94] Send 1792 bits
+I20230223 03:19:11.405025 13567 server.cpp:91] Finish fetch oram2 path:6
+I20230223 03:19:11.405295 13567 server.cpp:68] [server] receives 3 bits:
+I20230223 03:19:11.405328 13567 server.cpp:96] Begin fetch leaforam path:34
+I20230223 03:19:11.405364 13567 ORAM.cpp:94] Send 3808 bits
+I20230223 03:19:11.405380 13567 server.cpp:98] Finish fetch leaforam path:34
+I20230223 03:19:11.405805 13567 server.cpp:68] [server] receives 3 bits:
+I20230223 03:19:11.405839 13567 server.cpp:96] Begin fetch leaforam path:38
+I20230223 03:19:11.405860 13567 ORAM.cpp:94] Send 1632 bits
+I20230223 03:19:11.405865 13567 server.cpp:98] Finish fetch leaforam path:38
+I20230223 03:19:11.406065 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.406091 13567 server.cpp:81] Begin fetch oram1 path:1
+I20230223 03:19:11.406116 13567 ORAM.cpp:94] Send 1 bits
+I20230223 03:19:11.406132 13567 server.cpp:83] Finish fetch oram1 path:1
+I20230223 03:19:11.406198 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.406217 13567 server.cpp:89] Begin fetch oram2 path:1
+I20230223 03:19:11.406244 13567 ORAM.cpp:94] Send 1344 bits
+I20230223 03:19:11.406260 13567 server.cpp:91] Finish fetch oram2 path:1
+I20230223 03:19:11.406670 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.406694 13567 server.cpp:113] Begin Write to oram1-RAMstore : index = 2
+I20230223 03:19:11.406713 13567 server.cpp:115] Finish Write to oram1-RAMstore : index = 2
+I20230223 03:19:11.406733 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.406845 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.406869 13567 server.cpp:113] Begin Write to oram1-RAMstore : index = 0
+I20230223 03:19:11.406886 13567 server.cpp:115] Finish Write to oram1-RAMstore : index = 0
+I20230223 03:19:11.406905 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.407013 13567 server.cpp:68] [server] receives 452 bits:
+I20230223 03:19:11.407037 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 13
+I20230223 03:19:11.407060 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 13
+I20230223 03:19:11.407079 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.407172 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.407195 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 8
+I20230223 03:19:11.407212 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 8
+I20230223 03:19:11.407232 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.407323 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.407347 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 6
+I20230223 03:19:11.407364 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 6
+I20230223 03:19:11.407383 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.407490 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.407514 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 3
+I20230223 03:19:11.407531 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 3
+I20230223 03:19:11.407550 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.407642 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.407666 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 2
+I20230223 03:19:11.407682 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 2
+I20230223 03:19:11.407702 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.407792 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.407816 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 1
+I20230223 03:19:11.407835 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 1
+I20230223 03:19:11.407853 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.407945 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.407968 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 0
+I20230223 03:19:11.407985 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 0
+I20230223 03:19:11.408004 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.408113 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.408136 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 97
+I20230223 03:19:11.408154 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 97
+I20230223 03:19:11.408174 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.408267 13567 server.cpp:68] [server] receives 549 bits:
+I20230223 03:19:11.408282 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 101
+I20230223 03:19:11.408288 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 101
+I20230223 03:19:11.408306 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.408398 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.408422 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 48
+I20230223 03:19:11.408440 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 48
+I20230223 03:19:11.408459 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.408551 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.408576 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 50
+I20230223 03:19:11.408592 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 50
+I20230223 03:19:11.408612 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.408706 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.408731 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 23
+I20230223 03:19:11.408751 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 23
+I20230223 03:19:11.408769 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.408876 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.408902 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 24
+I20230223 03:19:11.408919 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 24
+I20230223 03:19:11.408939 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.409037 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.409067 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 11
+I20230223 03:19:11.409085 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 11
+I20230223 03:19:11.409104 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.409202 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.409225 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 5
+I20230223 03:19:11.409242 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 5
+I20230223 03:19:11.409261 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.409364 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.409387 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 2
+I20230223 03:19:11.409404 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 2
+I20230223 03:19:11.409423 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.409519 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.409543 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 0
+I20230223 03:19:11.409559 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 0
+I20230223 03:19:11.409579 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.409675 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.409695 13567 server.cpp:81] Begin fetch oram1 path:0
+I20230223 03:19:11.409722 13567 ORAM.cpp:94] Send 896 bits
+I20230223 03:19:11.409739 13567 server.cpp:83] Finish fetch oram1 path:0
+I20230223 03:19:11.409926 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.409950 13567 server.cpp:89] Begin fetch oram2 path:0
+I20230223 03:19:11.409978 13567 ORAM.cpp:94] Send 1792 bits
+I20230223 03:19:11.409988 13567 server.cpp:91] Finish fetch oram2 path:0
+I20230223 03:19:11.410251 13567 server.cpp:68] [server] receives 3 bits:
+I20230223 03:19:11.410267 13567 server.cpp:96] Begin fetch leaforam path:30
+I20230223 03:19:11.410287 13567 ORAM.cpp:94] Send 3808 bits
+I20230223 03:19:11.410303 13567 server.cpp:98] Finish fetch leaforam path:30
+I20230223 03:19:11.410719 13567 server.cpp:68] [server] receives 3 bits:
+I20230223 03:19:11.410743 13567 server.cpp:96] Begin fetch leaforam path:40
+I20230223 03:19:11.410775 13567 ORAM.cpp:94] Send 3264 bits
+I20230223 03:19:11.410794 13567 server.cpp:98] Finish fetch leaforam path:40
+I20230223 03:19:11.411141 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.411165 13567 server.cpp:81] Begin fetch oram1 path:1
+I20230223 03:19:11.411190 13567 ORAM.cpp:94] Send 448 bits
+I20230223 03:19:11.411206 13567 server.cpp:83] Finish fetch oram1 path:1
+I20230223 03:19:11.411319 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.411340 13567 server.cpp:89] Begin fetch oram2 path:5
+I20230223 03:19:11.411366 13567 ORAM.cpp:94] Send 1344 bits
+I20230223 03:19:11.411383 13567 server.cpp:91] Finish fetch oram2 path:5
+I20230223 03:19:11.411801 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.411826 13567 server.cpp:113] Begin Write to oram1-RAMstore : index = 1
+I20230223 03:19:11.411844 13567 server.cpp:115] Finish Write to oram1-RAMstore : index = 1
+I20230223 03:19:11.411872 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.411957 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.411967 13567 server.cpp:113] Begin Write to oram1-RAMstore : index = 2
+I20230223 03:19:11.411973 13567 server.cpp:115] Finish Write to oram1-RAMstore : index = 2
+I20230223 03:19:11.411980 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.412019 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.412029 13567 server.cpp:113] Begin Write to oram1-RAMstore : index = 0
+I20230223 03:19:11.412034 13567 server.cpp:115] Finish Write to oram1-RAMstore : index = 0
+I20230223 03:19:11.412039 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.412091 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.412111 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 7
+I20230223 03:19:11.412129 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 7
+I20230223 03:19:11.412149 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.412250 13567 server.cpp:68] [server] receives 452 bits:
+I20230223 03:19:11.412273 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 12
+I20230223 03:19:11.412292 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 12
+I20230223 03:19:11.412310 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.412402 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.412425 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 3
+I20230223 03:19:11.412442 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 3
+I20230223 03:19:11.412461 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.412556 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.412580 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 5
+I20230223 03:19:11.412596 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 5
+I20230223 03:19:11.412616 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.412730 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.412755 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 1
+I20230223 03:19:11.412772 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 1
+I20230223 03:19:11.412791 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.412923 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.412946 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 2
+I20230223 03:19:11.412962 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 2
+I20230223 03:19:11.412982 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.413079 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.413101 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 0
+I20230223 03:19:11.413118 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 0
+I20230223 03:19:11.413136 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.413245 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.413269 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 93
+I20230223 03:19:11.413285 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 93
+I20230223 03:19:11.413327 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.413422 13567 server.cpp:68] [server] receives 549 bits:
+I20230223 03:19:11.413445 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 103
+I20230223 03:19:11.413461 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 103
+I20230223 03:19:11.413480 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.413569 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.413592 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 46
+I20230223 03:19:11.413609 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 46
+I20230223 03:19:11.413626 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.413715 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.413738 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 51
+I20230223 03:19:11.413754 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 51
+I20230223 03:19:11.413772 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.413887 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.413916 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 22
+I20230223 03:19:11.413933 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 22
+I20230223 03:19:11.413951 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.414039 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.414062 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 25
+I20230223 03:19:11.414079 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 25
+I20230223 03:19:11.414098 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.414191 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.414214 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 10
+I20230223 03:19:11.414230 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 10
+I20230223 03:19:11.414252 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.414342 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.414366 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 12
+I20230223 03:19:11.414382 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 12
+I20230223 03:19:11.414400 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.414491 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.414515 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 4
+I20230223 03:19:11.414530 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 4
+I20230223 03:19:11.414549 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.414638 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.414661 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 5
+I20230223 03:19:11.414678 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 5
+I20230223 03:19:11.414696 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.414788 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.414810 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 1
+I20230223 03:19:11.414826 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 1
+I20230223 03:19:11.414845 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.414958 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.414980 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 2
+I20230223 03:19:11.414996 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 2
+I20230223 03:19:11.415015 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.415102 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.415125 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 0
+I20230223 03:19:11.415141 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 0
+I20230223 03:19:11.415159 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.415256 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.415277 13567 server.cpp:81] Begin fetch oram1 path:1
+I20230223 03:19:11.415302 13567 ORAM.cpp:94] Send 896 bits
+I20230223 03:19:11.415318 13567 server.cpp:83] Finish fetch oram1 path:1
+I20230223 03:19:11.415501 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.415524 13567 server.cpp:89] Begin fetch oram2 path:2
+I20230223 03:19:11.415549 13567 ORAM.cpp:94] Send 1792 bits
+I20230223 03:19:11.415565 13567 server.cpp:91] Finish fetch oram2 path:2
+I20230223 03:19:11.415812 13567 server.cpp:68] [server] receives 3 bits:
+I20230223 03:19:11.415858 13567 server.cpp:96] Begin fetch leaforam path:13
+I20230223 03:19:11.415902 13567 ORAM.cpp:94] Send 3808 bits
+I20230223 03:19:11.415918 13567 server.cpp:98] Finish fetch leaforam path:13
+I20230223 03:19:11.416311 13567 server.cpp:68] [server] receives 3 bits:
+I20230223 03:19:11.416333 13567 server.cpp:96] Begin fetch leaforam path:56
+I20230223 03:19:11.416363 13567 ORAM.cpp:94] Send 3264 bits
+I20230223 03:19:11.416379 13567 server.cpp:98] Finish fetch leaforam path:56
+I20230223 03:19:11.416702 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.416723 13567 server.cpp:81] Begin fetch oram1 path:1
+I20230223 03:19:11.416752 13567 ORAM.cpp:94] Send 1 bits
+I20230223 03:19:11.416767 13567 server.cpp:83] Finish fetch oram1 path:1
+I20230223 03:19:11.416851 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.416870 13567 server.cpp:89] Begin fetch oram2 path:0
+I20230223 03:19:11.416908 13567 ORAM.cpp:94] Send 896 bits
+I20230223 03:19:11.416923 13567 server.cpp:91] Finish fetch oram2 path:0
+I20230223 03:19:11.417285 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.417343 13567 server.cpp:113] Begin Write to oram1-RAMstore : index = 2
+I20230223 03:19:11.417362 13567 server.cpp:115] Finish Write to oram1-RAMstore : index = 2
+I20230223 03:19:11.417382 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.417495 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.417518 13567 server.cpp:113] Begin Write to oram1-RAMstore : index = 0
+I20230223 03:19:11.417538 13567 server.cpp:115] Finish Write to oram1-RAMstore : index = 0
+I20230223 03:19:11.417557 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.417657 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.417680 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 9
+I20230223 03:19:11.417695 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 9
+I20230223 03:19:11.417713 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.417798 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.417835 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 7
+I20230223 03:19:11.417860 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 7
+I20230223 03:19:11.417879 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.417977 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.417999 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 4
+I20230223 03:19:11.418015 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 4
+I20230223 03:19:11.418033 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.418131 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.418154 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 3
+I20230223 03:19:11.418169 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 3
+I20230223 03:19:11.418187 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.418272 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.418293 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 1
+I20230223 03:19:11.418309 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 1
+I20230223 03:19:11.418327 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.418411 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.418433 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 0
+I20230223 03:19:11.418448 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 0
+I20230223 03:19:11.418466 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.418567 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.418589 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 76
+I20230223 03:19:11.418606 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 76
+I20230223 03:19:11.418623 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.418730 13567 server.cpp:68] [server] receives 549 bits:
+I20230223 03:19:11.418752 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 119
+I20230223 03:19:11.418769 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 119
+I20230223 03:19:11.418787 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.418938 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.418968 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 37
+I20230223 03:19:11.419011 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 37
+I20230223 03:19:11.419031 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.419171 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.419194 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 59
+I20230223 03:19:11.419210 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 59
+I20230223 03:19:11.419229 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.419320 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.419344 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 18
+I20230223 03:19:11.419360 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 18
+I20230223 03:19:11.419379 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.419468 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.419492 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 29
+I20230223 03:19:11.419508 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 29
+I20230223 03:19:11.419526 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.419615 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.419641 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 8
+I20230223 03:19:11.419659 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 8
+I20230223 03:19:11.419678 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.419768 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.419791 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 14
+I20230223 03:19:11.419814 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 14
+I20230223 03:19:11.419833 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.419936 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.419960 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 3
+I20230223 03:19:11.419977 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 3
+I20230223 03:19:11.420012 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.420171 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.420197 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 6
+I20230223 03:19:11.420213 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 6
+I20230223 03:19:11.420233 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.420325 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.420349 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 1
+I20230223 03:19:11.420367 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 1
+I20230223 03:19:11.420387 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.420456 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.420480 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 2
+I20230223 03:19:11.420497 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 2
+I20230223 03:19:11.420516 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.420607 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.420631 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 0
+I20230223 03:19:11.420648 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 0
+I20230223 03:19:11.420667 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.420754 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.420778 13567 server.cpp:81] Begin fetch oram1 path:0
+I20230223 03:19:11.420812 13567 ORAM.cpp:94] Send 896 bits
+I20230223 03:19:11.420830 13567 server.cpp:83] Finish fetch oram1 path:0
+I20230223 03:19:11.421015 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.421038 13567 server.cpp:89] Begin fetch oram2 path:1
+I20230223 03:19:11.421065 13567 ORAM.cpp:94] Send 1792 bits
+I20230223 03:19:11.421082 13567 server.cpp:91] Finish fetch oram2 path:1
+I20230223 03:19:11.421340 13567 server.cpp:68] [server] receives 3 bits:
+I20230223 03:19:11.421376 13567 server.cpp:96] Begin fetch leaforam path:25
+I20230223 03:19:11.421409 13567 ORAM.cpp:94] Send 3808 bits
+I20230223 03:19:11.421427 13567 server.cpp:98] Finish fetch leaforam path:25
+I20230223 03:19:11.421860 13567 server.cpp:68] [server] receives 3 bits:
+I20230223 03:19:11.421882 13567 server.cpp:96] Begin fetch leaforam path:55
+I20230223 03:19:11.421921 13567 ORAM.cpp:94] Send 3264 bits
+I20230223 03:19:11.421936 13567 server.cpp:98] Finish fetch leaforam path:55
+I20230223 03:19:11.422266 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.422286 13567 server.cpp:81] Begin fetch oram1 path:0
+I20230223 03:19:11.422317 13567 ORAM.cpp:94] Send 1 bits
+I20230223 03:19:11.422333 13567 server.cpp:83] Finish fetch oram1 path:0
+I20230223 03:19:11.422387 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.422405 13567 server.cpp:89] Begin fetch oram2 path:4
+I20230223 03:19:11.422430 13567 ORAM.cpp:94] Send 1344 bits
+I20230223 03:19:11.422446 13567 server.cpp:91] Finish fetch oram2 path:4
+I20230223 03:19:11.422914 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.422935 13567 server.cpp:113] Begin Write to oram1-RAMstore : index = 1
+I20230223 03:19:11.422943 13567 server.cpp:115] Finish Write to oram1-RAMstore : index = 1
+I20230223 03:19:11.422964 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.423054 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.423074 13567 server.cpp:113] Begin Write to oram1-RAMstore : index = 0
+I20230223 03:19:11.423082 13567 server.cpp:115] Finish Write to oram1-RAMstore : index = 0
+I20230223 03:19:11.423099 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.423219 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.423240 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 8
+I20230223 03:19:11.423257 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 8
+I20230223 03:19:11.423275 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.423357 13567 server.cpp:68] [server] receives 452 bits:
+I20230223 03:19:11.423377 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 11
+I20230223 03:19:11.423393 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 11
+I20230223 03:19:11.423411 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.423508 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.423529 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 3
+I20230223 03:19:11.423545 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 3
+I20230223 03:19:11.423563 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.423652 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.423673 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 5
+I20230223 03:19:11.423681 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 5
+I20230223 03:19:11.423698 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.423787 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.423817 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 1
+I20230223 03:19:11.423842 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 1
+I20230223 03:19:11.423867 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.423947 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.423969 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 2
+I20230223 03:19:11.423985 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 2
+I20230223 03:19:11.424002 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.424082 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.424103 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 0
+I20230223 03:19:11.424119 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 0
+I20230223 03:19:11.424139 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.424244 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.424265 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 88
+I20230223 03:19:11.424273 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 88
+I20230223 03:19:11.424290 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.424381 13567 server.cpp:68] [server] receives 549 bits:
+I20230223 03:19:11.424401 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 118
+I20230223 03:19:11.424417 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 118
+I20230223 03:19:11.424436 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.424517 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.424538 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 43
+I20230223 03:19:11.424554 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 43
+I20230223 03:19:11.424572 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.424662 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.424683 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 58
+I20230223 03:19:11.424691 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 58
+I20230223 03:19:11.424708 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.424791 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.424829 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 21
+I20230223 03:19:11.424844 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 21
+I20230223 03:19:11.424867 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.424968 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.424989 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 28
+I20230223 03:19:11.424997 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 28
+I20230223 03:19:11.425014 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.425105 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.425125 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 10
+I20230223 03:19:11.425141 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 10
+I20230223 03:19:11.425160 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.425252 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.425273 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 13
+I20230223 03:19:11.425282 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 13
+I20230223 03:19:11.425298 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.425405 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.425426 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 4
+I20230223 03:19:11.425434 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 4
+I20230223 03:19:11.425451 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.425540 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.425561 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 6
+I20230223 03:19:11.425570 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 6
+I20230223 03:19:11.425586 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.425675 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.425696 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 1
+I20230223 03:19:11.425704 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 1
+I20230223 03:19:11.425721 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.425827 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.425854 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 2
+I20230223 03:19:11.425870 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 2
+I20230223 03:19:11.425889 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.425968 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.425989 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 0
+I20230223 03:19:11.426005 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 0
+I20230223 03:19:11.426024 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.426100 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.426116 13567 server.cpp:81] Begin fetch oram1 path:0
+I20230223 03:19:11.426141 13567 ORAM.cpp:94] Send 896 bits
+I20230223 03:19:11.426156 13567 server.cpp:83] Finish fetch oram1 path:0
+I20230223 03:19:11.426323 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.426343 13567 server.cpp:89] Begin fetch oram2 path:1
+I20230223 03:19:11.426370 13567 ORAM.cpp:94] Send 1792 bits
+I20230223 03:19:11.426386 13567 server.cpp:91] Finish fetch oram2 path:1
+I20230223 03:19:11.426643 13567 server.cpp:68] [server] receives 3 bits:
+I20230223 03:19:11.426672 13567 server.cpp:96] Begin fetch leaforam path:14
+I20230223 03:19:11.426704 13567 ORAM.cpp:94] Send 3808 bits
+I20230223 03:19:11.426721 13567 server.cpp:98] Finish fetch leaforam path:14
+I20230223 03:19:11.427145 13567 server.cpp:68] [server] receives 3 bits:
+I20230223 03:19:11.427173 13567 server.cpp:96] Begin fetch leaforam path:40
+I20230223 03:19:11.427203 13567 ORAM.cpp:94] Send 3264 bits
+I20230223 03:19:11.427220 13567 server.cpp:98] Finish fetch leaforam path:40
+I20230223 03:19:11.427552 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.427574 13567 server.cpp:89] Begin fetch oram2 path:6
+I20230223 03:19:11.427599 13567 ORAM.cpp:94] Send 1344 bits
+I20230223 03:19:11.427616 13567 server.cpp:91] Finish fetch oram2 path:6
+I20230223 03:19:11.427821 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.427847 13567 server.cpp:81] Begin fetch oram1 path:1
+I20230223 03:19:11.427871 13567 ORAM.cpp:94] Send 448 bits
+I20230223 03:19:11.427888 13567 server.cpp:83] Finish fetch oram1 path:1
+I20230223 03:19:11.428319 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.428354 13567 server.cpp:113] Begin Write to oram1-RAMstore : index = 1
+I20230223 03:19:11.428370 13567 server.cpp:115] Finish Write to oram1-RAMstore : index = 1
+I20230223 03:19:11.428390 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.428531 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.428551 13567 server.cpp:113] Begin Write to oram1-RAMstore : index = 2
+I20230223 03:19:11.428567 13567 server.cpp:115] Finish Write to oram1-RAMstore : index = 2
+I20230223 03:19:11.428586 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.428674 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.428695 13567 server.cpp:113] Begin Write to oram1-RAMstore : index = 0
+I20230223 03:19:11.428711 13567 server.cpp:115] Finish Write to oram1-RAMstore : index = 0
+I20230223 03:19:11.428730 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.428840 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.428861 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 8
+I20230223 03:19:11.428877 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 8
+I20230223 03:19:11.428896 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.428985 13567 server.cpp:68] [server] receives 452 bits:
+I20230223 03:19:11.429005 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 13
+I20230223 03:19:11.429021 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 13
+I20230223 03:19:11.429040 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.429143 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.429163 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 3
+I20230223 03:19:11.429180 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 3
+I20230223 03:19:11.429198 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.429287 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.429312 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 6
+I20230223 03:19:11.429329 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 6
+I20230223 03:19:11.429348 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.429438 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.429458 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 1
+I20230223 03:19:11.429474 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 1
+I20230223 03:19:11.429493 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.429596 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.429616 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 2
+I20230223 03:19:11.429632 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 2
+I20230223 03:19:11.429651 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.429739 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.429759 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 0
+I20230223 03:19:11.429767 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 0
+I20230223 03:19:11.429790 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.429900 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.429921 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 77
+I20230223 03:19:11.429939 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 77
+I20230223 03:19:11.429957 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.430056 13567 server.cpp:68] [server] receives 549 bits:
+I20230223 03:19:11.430078 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 103
+I20230223 03:19:11.430094 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 103
+I20230223 03:19:11.430111 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.430202 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.430225 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 38
+I20230223 03:19:11.430243 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 38
+I20230223 03:19:11.430260 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.430351 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.430371 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 51
+I20230223 03:19:11.430387 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 51
+I20230223 03:19:11.430405 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.430495 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.430516 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 18
+I20230223 03:19:11.430531 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 18
+I20230223 03:19:11.430549 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.430639 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.430660 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 25
+I20230223 03:19:11.430675 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 25
+I20230223 03:19:11.430693 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.430790 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.430810 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 8
+I20230223 03:19:11.430826 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 8
+I20230223 03:19:11.430845 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.430941 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.430954 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 12
+I20230223 03:19:11.430960 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 12
+I20230223 03:19:11.430977 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.431071 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.431090 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 3
+I20230223 03:19:11.431106 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 3
+I20230223 03:19:11.431125 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.431214 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.431236 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 5
+I20230223 03:19:11.431252 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 5
+I20230223 03:19:11.431269 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.431361 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.431382 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 1
+I20230223 03:19:11.431398 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 1
+I20230223 03:19:11.431408 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.431488 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.431509 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 2
+I20230223 03:19:11.431525 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 2
+I20230223 03:19:11.431545 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.431634 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.431648 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 0
+I20230223 03:19:11.431663 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 0
+I20230223 03:19:11.431681 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.431766 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.431826 13567 server.cpp:81] Begin fetch oram1 path:0
+I20230223 03:19:11.431859 13567 ORAM.cpp:94] Send 896 bits
+I20230223 03:19:11.431874 13567 server.cpp:83] Finish fetch oram1 path:0
+I20230223 03:19:11.432050 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.432080 13567 server.cpp:89] Begin fetch oram2 path:4
+I20230223 03:19:11.432096 13567 ORAM.cpp:94] Send 1792 bits
+I20230223 03:19:11.432112 13567 server.cpp:91] Finish fetch oram2 path:4
+I20230223 03:19:11.432370 13567 server.cpp:68] [server] receives 3 bits:
+I20230223 03:19:11.432394 13567 server.cpp:96] Begin fetch leaforam path:56
+I20230223 03:19:11.432427 13567 ORAM.cpp:94] Send 3808 bits
+I20230223 03:19:11.432446 13567 server.cpp:98] Finish fetch leaforam path:56
+I20230223 03:19:11.432875 13567 server.cpp:68] [server] receives 3 bits:
+I20230223 03:19:11.432906 13567 server.cpp:96] Begin fetch leaforam path:40
+I20230223 03:19:11.432935 13567 ORAM.cpp:94] Send 2720 bits
+I20230223 03:19:11.432952 13567 server.cpp:98] Finish fetch leaforam path:40
+I20230223 03:19:11.433244 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.433266 13567 server.cpp:81] Begin fetch oram1 path:0
+I20230223 03:19:11.433290 13567 ORAM.cpp:94] Send 1 bits
+I20230223 03:19:11.433310 13567 server.cpp:83] Finish fetch oram1 path:0
+I20230223 03:19:11.433377 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.433394 13567 server.cpp:89] Begin fetch oram2 path:1
+I20230223 03:19:11.433411 13567 ORAM.cpp:94] Send 1344 bits
+I20230223 03:19:11.433426 13567 server.cpp:91] Finish fetch oram2 path:1
+I20230223 03:19:11.433933 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.433954 13567 server.cpp:113] Begin Write to oram1-RAMstore : index = 1
+I20230223 03:19:11.433964 13567 server.cpp:115] Finish Write to oram1-RAMstore : index = 1
+I20230223 03:19:11.433980 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.434077 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.434098 13567 server.cpp:113] Begin Write to oram1-RAMstore : index = 0
+I20230223 03:19:11.434114 13567 server.cpp:115] Finish Write to oram1-RAMstore : index = 0
+I20230223 03:19:11.434134 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.434234 13567 server.cpp:68] [server] receives 452 bits:
+I20230223 03:19:11.434255 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 11
+I20230223 03:19:11.434271 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 11
+I20230223 03:19:11.434289 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.434381 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.434401 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 8
+I20230223 03:19:11.434417 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 8
+I20230223 03:19:11.434435 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.434525 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.434545 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 5
+I20230223 03:19:11.434553 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 5
+I20230223 03:19:11.434571 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.434675 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.434695 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 3
+I20230223 03:19:11.434705 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 3
+I20230223 03:19:11.434721 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.434844 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.434875 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 2
+I20230223 03:19:11.434907 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 2
+I20230223 03:19:11.434926 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.435032 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.435055 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 1
+I20230223 03:19:11.435062 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 1
+I20230223 03:19:11.435079 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.435171 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.435184 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 0
+I20230223 03:19:11.435191 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 0
+I20230223 03:19:11.435209 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.435299 13567 server.cpp:68] [server] receives 549 bits:
+I20230223 03:19:11.435313 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 119
+I20230223 03:19:11.435328 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 119
+I20230223 03:19:11.435351 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.435473 13567 server.cpp:68] [server] receives 549 bits:
+I20230223 03:19:11.435511 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 103
+I20230223 03:19:11.435541 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 103
+I20230223 03:19:11.435560 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.435696 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.435716 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 59
+I20230223 03:19:11.435734 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 59
+I20230223 03:19:11.435752 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.435850 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.435873 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 51
+I20230223 03:19:11.435889 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 51
+I20230223 03:19:11.435909 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.436005 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.436026 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 29
+I20230223 03:19:11.436034 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 29
+I20230223 03:19:11.436043 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.436125 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.436146 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 25
+I20230223 03:19:11.436162 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 25
+I20230223 03:19:11.436187 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.436267 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.436288 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 14
+I20230223 03:19:11.436304 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 14
+I20230223 03:19:11.436322 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.436414 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.436434 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 12
+I20230223 03:19:11.436450 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 12
+I20230223 03:19:11.436470 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.436553 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.436574 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 6
+I20230223 03:19:11.436583 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 6
+I20230223 03:19:11.436591 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.436672 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.436693 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 5
+I20230223 03:19:11.436709 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 5
+I20230223 03:19:11.436728 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.436826 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.436846 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 2
+I20230223 03:19:11.436862 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 2
+I20230223 03:19:11.436880 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.436975 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.436995 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 0
+I20230223 03:19:11.437011 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 0
+I20230223 03:19:11.437022 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.437096 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.437114 13567 server.cpp:81] Begin fetch oram1 path:1
+I20230223 03:19:11.437140 13567 ORAM.cpp:94] Send 896 bits
+I20230223 03:19:11.437156 13567 server.cpp:83] Finish fetch oram1 path:1
+I20230223 03:19:11.437343 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.437373 13567 server.cpp:89] Begin fetch oram2 path:0
+I20230223 03:19:11.437402 13567 ORAM.cpp:94] Send 1792 bits
+I20230223 03:19:11.437420 13567 server.cpp:91] Finish fetch oram2 path:0
+I20230223 03:19:11.437698 13567 server.cpp:68] [server] receives 3 bits:
+I20230223 03:19:11.437719 13567 server.cpp:96] Begin fetch leaforam path:50
+I20230223 03:19:11.437750 13567 ORAM.cpp:94] Send 3808 bits
+I20230223 03:19:11.437769 13567 server.cpp:98] Finish fetch leaforam path:50
+I20230223 03:19:11.438189 13567 server.cpp:68] [server] receives 3 bits:
+I20230223 03:19:11.438217 13567 server.cpp:96] Begin fetch leaforam path:40
+I20230223 03:19:11.438246 13567 ORAM.cpp:94] Send 2720 bits
+I20230223 03:19:11.438263 13567 server.cpp:98] Finish fetch leaforam path:40
+I20230223 03:19:11.438560 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.438589 13567 server.cpp:81] Begin fetch oram1 path:0
+I20230223 03:19:11.438612 13567 ORAM.cpp:94] Send 448 bits
+I20230223 03:19:11.438629 13567 server.cpp:83] Finish fetch oram1 path:0
+I20230223 03:19:11.438740 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.438760 13567 server.cpp:89] Begin fetch oram2 path:0
+I20230223 03:19:11.438783 13567 ORAM.cpp:94] Send 1 bits
+I20230223 03:19:11.438798 13567 server.cpp:91] Finish fetch oram2 path:0
+I20230223 03:19:11.439221 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.439242 13567 server.cpp:113] Begin Write to oram1-RAMstore : index = 2
+I20230223 03:19:11.439260 13567 server.cpp:115] Finish Write to oram1-RAMstore : index = 2
+I20230223 03:19:11.439277 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.439368 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.439388 13567 server.cpp:113] Begin Write to oram1-RAMstore : index = 1
+I20230223 03:19:11.439404 13567 server.cpp:115] Finish Write to oram1-RAMstore : index = 1
+I20230223 03:19:11.439424 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.439513 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.439533 13567 server.cpp:113] Begin Write to oram1-RAMstore : index = 0
+I20230223 03:19:11.439549 13567 server.cpp:115] Finish Write to oram1-RAMstore : index = 0
+I20230223 03:19:11.439568 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.439673 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.439693 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 7
+I20230223 03:19:11.439710 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 7
+I20230223 03:19:11.439728 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.439827 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.439847 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 3
+I20230223 03:19:11.439864 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 3
+I20230223 03:19:11.439882 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.439991 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.440011 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 1
+I20230223 03:19:11.440027 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 1
+I20230223 03:19:11.440047 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.440150 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.440171 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 0
+I20230223 03:19:11.440187 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 0
+I20230223 03:19:11.440207 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.440315 13567 server.cpp:68] [server] receives 549 bits:
+I20230223 03:19:11.440335 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 113
+I20230223 03:19:11.440352 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 113
+I20230223 03:19:11.440371 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.440462 13567 server.cpp:68] [server] receives 549 bits:
+I20230223 03:19:11.440482 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 103
+I20230223 03:19:11.440500 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 103
+I20230223 03:19:11.440517 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.440613 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.440632 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 56
+I20230223 03:19:11.440649 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 56
+I20230223 03:19:11.440667 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.440766 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.440788 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 51
+I20230223 03:19:11.440804 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 51
+I20230223 03:19:11.440821 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.440913 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.440933 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 27
+I20230223 03:19:11.440950 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 27
+I20230223 03:19:11.440968 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.441058 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.441078 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 25
+I20230223 03:19:11.441094 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 25
+I20230223 03:19:11.441113 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.441198 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.441218 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 13
+I20230223 03:19:11.441234 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 13
+I20230223 03:19:11.441253 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.441355 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.441377 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 12
+I20230223 03:19:11.441394 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 12
+I20230223 03:19:11.441412 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.441506 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.441527 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 6
+I20230223 03:19:11.441543 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 6
+I20230223 03:19:11.441561 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.441651 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.441673 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 5
+I20230223 03:19:11.441689 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 5
+I20230223 03:19:11.441706 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.441802 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.441823 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 2
+I20230223 03:19:11.441839 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 2
+I20230223 03:19:11.441857 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.441951 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.441970 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 0
+I20230223 03:19:11.441987 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 0
+I20230223 03:19:11.442005 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.442090 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.442107 13567 server.cpp:81] Begin fetch oram1 path:1
+I20230223 03:19:11.442123 13567 ORAM.cpp:94] Send 896 bits
+I20230223 03:19:11.442138 13567 server.cpp:83] Finish fetch oram1 path:1
+I20230223 03:19:11.442314 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.442334 13567 server.cpp:89] Begin fetch oram2 path:6
+I20230223 03:19:11.442355 13567 ORAM.cpp:94] Send 1792 bits
+I20230223 03:19:11.442370 13567 server.cpp:91] Finish fetch oram2 path:6
+I20230223 03:19:11.442631 13567 server.cpp:68] [server] receives 3 bits:
+I20230223 03:19:11.442657 13567 server.cpp:96] Begin fetch leaforam path:57
+I20230223 03:19:11.442680 13567 ORAM.cpp:94] Send 3808 bits
+I20230223 03:19:11.442695 13567 server.cpp:98] Finish fetch leaforam path:57
+I20230223 03:19:11.443130 13567 server.cpp:68] [server] receives 3 bits:
+I20230223 03:19:11.443162 13567 server.cpp:96] Begin fetch leaforam path:15
+I20230223 03:19:11.443193 13567 ORAM.cpp:94] Send 3264 bits
+I20230223 03:19:11.443210 13567 server.cpp:98] Finish fetch leaforam path:15
+I20230223 03:19:11.443564 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.443593 13567 server.cpp:81] Begin fetch oram1 path:1
+I20230223 03:19:11.443615 13567 ORAM.cpp:94] Send 1 bits
+I20230223 03:19:11.443631 13567 server.cpp:83] Finish fetch oram1 path:1
+I20230223 03:19:11.443696 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.443712 13567 server.cpp:89] Begin fetch oram2 path:6
+I20230223 03:19:11.443724 13567 ORAM.cpp:94] Send 1 bits
+I20230223 03:19:11.443739 13567 server.cpp:91] Finish fetch oram2 path:6
+I20230223 03:19:11.444104 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.444126 13567 server.cpp:113] Begin Write to oram1-RAMstore : index = 2
+I20230223 03:19:11.444142 13567 server.cpp:115] Finish Write to oram1-RAMstore : index = 2
+I20230223 03:19:11.444161 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.444257 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.444278 13567 server.cpp:113] Begin Write to oram1-RAMstore : index = 0
+I20230223 03:19:11.444294 13567 server.cpp:115] Finish Write to oram1-RAMstore : index = 0
+I20230223 03:19:11.444314 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.444419 13567 server.cpp:68] [server] receives 452 bits:
+I20230223 03:19:11.444439 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 13
+I20230223 03:19:11.444447 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 13
+I20230223 03:19:11.444465 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.444555 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.444576 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 6
+I20230223 03:19:11.444592 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 6
+I20230223 03:19:11.444612 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.444694 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.444713 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 2
+I20230223 03:19:11.444721 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 2
+I20230223 03:19:11.444746 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.444867 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.444888 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 0
+I20230223 03:19:11.444905 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 0
+I20230223 03:19:11.444922 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.445029 13567 server.cpp:68] [server] receives 549 bits:
+I20230223 03:19:11.445050 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 120
+I20230223 03:19:11.445066 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 120
+I20230223 03:19:11.445084 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.445176 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.445196 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 78
+I20230223 03:19:11.445214 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 78
+I20230223 03:19:11.445231 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.445328 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.445350 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 59
+I20230223 03:19:11.445366 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 59
+I20230223 03:19:11.445385 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.445467 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.445487 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 38
+I20230223 03:19:11.445503 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 38
+I20230223 03:19:11.445521 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.445612 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.445633 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 29
+I20230223 03:19:11.445653 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 29
+I20230223 03:19:11.445672 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.445775 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.445794 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 18
+I20230223 03:19:11.445811 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 18
+I20230223 03:19:11.445822 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.445904 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.445924 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 14
+I20230223 03:19:11.445940 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 14
+I20230223 03:19:11.445958 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.446051 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.446072 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 8
+I20230223 03:19:11.446089 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 8
+I20230223 03:19:11.446107 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.446198 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.446219 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 6
+I20230223 03:19:11.446235 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 6
+I20230223 03:19:11.446254 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.446349 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.446370 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 3
+I20230223 03:19:11.446386 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 3
+I20230223 03:19:11.446404 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.446478 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.446497 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 2
+I20230223 03:19:11.446513 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 2
+I20230223 03:19:11.446532 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.446625 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.446646 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 1
+I20230223 03:19:11.446662 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 1
+I20230223 03:19:11.446681 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.446771 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.446791 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 0
+I20230223 03:19:11.446808 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 0
+I20230223 03:19:11.446826 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.446911 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.446928 13567 server.cpp:81] Begin fetch oram1 path:0
+I20230223 03:19:11.446954 13567 ORAM.cpp:94] Send 896 bits
+I20230223 03:19:11.446969 13567 server.cpp:83] Finish fetch oram1 path:0
+I20230223 03:19:11.447137 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.447150 13567 server.cpp:89] Begin fetch oram2 path:3
+I20230223 03:19:11.447165 13567 ORAM.cpp:94] Send 1792 bits
+I20230223 03:19:11.447173 13567 server.cpp:91] Finish fetch oram2 path:3
+I20230223 03:19:11.447443 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.447463 13567 server.cpp:96] Begin fetch leaforam path:5
+I20230223 03:19:11.447494 13567 ORAM.cpp:94] Send 3808 bits
+I20230223 03:19:11.447510 13567 server.cpp:98] Finish fetch leaforam path:5
+I20230223 03:19:11.447955 13567 server.cpp:68] [server] receives 3 bits:
+I20230223 03:19:11.447976 13567 server.cpp:96] Begin fetch leaforam path:30
+I20230223 03:19:11.448007 13567 ORAM.cpp:94] Send 2720 bits
+I20230223 03:19:11.448016 13567 server.cpp:98] Finish fetch leaforam path:30
+I20230223 03:19:11.448313 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.448334 13567 server.cpp:81] Begin fetch oram1 path:0
+I20230223 03:19:11.448357 13567 ORAM.cpp:94] Send 1 bits
+I20230223 03:19:11.448365 13567 server.cpp:83] Finish fetch oram1 path:0
+I20230223 03:19:11.448433 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.448451 13567 server.cpp:89] Begin fetch oram2 path:1
+I20230223 03:19:11.448467 13567 ORAM.cpp:94] Send 896 bits
+I20230223 03:19:11.448482 13567 server.cpp:91] Finish fetch oram2 path:1
+I20230223 03:19:11.449046 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.449067 13567 server.cpp:113] Begin Write to oram1-RAMstore : index = 1
+I20230223 03:19:11.449084 13567 server.cpp:115] Finish Write to oram1-RAMstore : index = 1
+I20230223 03:19:11.449102 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.449193 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.449213 13567 server.cpp:113] Begin Write to oram1-RAMstore : index = 0
+I20230223 03:19:11.449229 13567 server.cpp:115] Finish Write to oram1-RAMstore : index = 0
+I20230223 03:19:11.449249 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.449350 13567 server.cpp:68] [server] receives 452 bits:
+I20230223 03:19:11.449373 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 10
+I20230223 03:19:11.449388 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 10
+I20230223 03:19:11.449409 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.449528 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.449549 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 8
+I20230223 03:19:11.449558 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 8
+I20230223 03:19:11.449574 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.449664 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.449685 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 4
+I20230223 03:19:11.449702 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 4
+I20230223 03:19:11.449720 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.449808 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.449829 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 3
+I20230223 03:19:11.449846 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 3
+I20230223 03:19:11.449863 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.449952 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.449972 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 1
+I20230223 03:19:11.449980 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 1
+I20230223 03:19:11.449997 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.450085 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.450106 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 0
+I20230223 03:19:11.450122 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 0
+I20230223 03:19:11.450140 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.450238 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.450259 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 68
+I20230223 03:19:11.450276 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 68
+I20230223 03:19:11.450294 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.450389 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.450409 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 93
+I20230223 03:19:11.450425 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 93
+I20230223 03:19:11.450444 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.450520 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.450541 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 33
+I20230223 03:19:11.450557 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 33
+I20230223 03:19:11.450575 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.450667 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.450687 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 46
+I20230223 03:19:11.450703 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 46
+I20230223 03:19:11.450731 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.450903 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.450925 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 16
+I20230223 03:19:11.450942 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 16
+I20230223 03:19:11.450976 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.451114 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.451143 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 22
+I20230223 03:19:11.451159 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 22
+I20230223 03:19:11.451177 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.451268 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.451289 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 7
+I20230223 03:19:11.451305 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 7
+I20230223 03:19:11.451323 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.451421 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.451440 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 10
+I20230223 03:19:11.451457 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 10
+I20230223 03:19:11.451475 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.451556 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.451577 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 3
+I20230223 03:19:11.451586 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 3
+I20230223 03:19:11.451602 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.451686 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.451707 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 4
+I20230223 03:19:11.451715 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 4
+I20230223 03:19:11.451740 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.451822 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.451843 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 1
+I20230223 03:19:11.451858 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 1
+I20230223 03:19:11.451876 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.451967 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.451987 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 0
+I20230223 03:19:11.452003 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 0
+I20230223 03:19:11.452020 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.452108 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.452127 13567 server.cpp:81] Begin fetch oram1 path:0
+I20230223 03:19:11.452145 13567 ORAM.cpp:94] Send 896 bits
+I20230223 03:19:11.452176 13567 server.cpp:83] Finish fetch oram1 path:0
+I20230223 03:19:11.452373 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.452394 13567 server.cpp:89] Begin fetch oram2 path:1
+I20230223 03:19:11.452422 13567 ORAM.cpp:94] Send 1792 bits
+I20230223 03:19:11.452440 13567 server.cpp:91] Finish fetch oram2 path:1
+I20230223 03:19:11.452879 13567 server.cpp:68] [server] receives 3 bits:
+I20230223 03:19:11.452900 13567 server.cpp:96] Begin fetch leaforam path:26
+I20230223 03:19:11.452931 13567 ORAM.cpp:94] Send 3808 bits
+I20230223 03:19:11.452948 13567 server.cpp:98] Finish fetch leaforam path:26
+I20230223 03:19:11.453382 13567 server.cpp:68] [server] receives 3 bits:
+I20230223 03:19:11.453404 13567 server.cpp:96] Begin fetch leaforam path:41
+I20230223 03:19:11.453435 13567 ORAM.cpp:94] Send 3264 bits
+I20230223 03:19:11.453452 13567 server.cpp:98] Finish fetch leaforam path:41
+I20230223 03:19:11.453809 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.453830 13567 server.cpp:89] Begin fetch oram2 path:1
+I20230223 03:19:11.453845 13567 ORAM.cpp:94] Send 1 bits
+I20230223 03:19:11.453858 13567 server.cpp:91] Finish fetch oram2 path:1
+I20230223 03:19:11.453930 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.453949 13567 server.cpp:81] Begin fetch oram1 path:1
+I20230223 03:19:11.453976 13567 ORAM.cpp:94] Send 448 bits
+I20230223 03:19:11.453994 13567 server.cpp:83] Finish fetch oram1 path:1
+I20230223 03:19:11.454466 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.454488 13567 server.cpp:113] Begin Write to oram1-RAMstore : index = 1
+I20230223 03:19:11.454496 13567 server.cpp:115] Finish Write to oram1-RAMstore : index = 1
+I20230223 03:19:11.454514 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.454614 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.454634 13567 server.cpp:113] Begin Write to oram1-RAMstore : index = 2
+I20230223 03:19:11.454643 13567 server.cpp:115] Finish Write to oram1-RAMstore : index = 2
+I20230223 03:19:11.454659 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.454759 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.454788 13567 server.cpp:113] Begin Write to oram1-RAMstore : index = 0
+I20230223 03:19:11.454804 13567 server.cpp:115] Finish Write to oram1-RAMstore : index = 0
+I20230223 03:19:11.454823 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.454944 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.454967 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 8
+I20230223 03:19:11.454974 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 8
+I20230223 03:19:11.454984 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.455080 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.455094 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 3
+I20230223 03:19:11.455101 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 3
+I20230223 03:19:11.455118 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.455199 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.455220 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 1
+I20230223 03:19:11.455228 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 1
+I20230223 03:19:11.455245 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.455340 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.455361 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 0
+I20230223 03:19:11.455377 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 0
+I20230223 03:19:11.455396 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.455507 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.455528 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 89
+I20230223 03:19:11.455543 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 89
+I20230223 03:19:11.455562 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.455643 13567 server.cpp:68] [server] receives 549 bits:
+I20230223 03:19:11.455664 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 104
+I20230223 03:19:11.455680 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 104
+I20230223 03:19:11.455694 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.455785 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.455804 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 44
+I20230223 03:19:11.455821 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 44
+I20230223 03:19:11.455838 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.455929 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.455950 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 51
+I20230223 03:19:11.455965 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 51
+I20230223 03:19:11.455984 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.456072 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.456091 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 21
+I20230223 03:19:11.456108 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 21
+I20230223 03:19:11.456126 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.456229 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.456249 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 25
+I20230223 03:19:11.456269 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 25
+I20230223 03:19:11.456288 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.456378 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.456398 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 10
+I20230223 03:19:11.456414 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 10
+I20230223 03:19:11.456434 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.456523 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.456543 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 12
+I20230223 03:19:11.456559 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 12
+I20230223 03:19:11.456578 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.456672 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.456693 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 4
+I20230223 03:19:11.456715 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 4
+I20230223 03:19:11.456734 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.456826 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.456847 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 5
+I20230223 03:19:11.456863 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 5
+I20230223 03:19:11.456881 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.456974 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.456995 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 1
+I20230223 03:19:11.457011 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 1
+I20230223 03:19:11.457029 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.457120 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.457140 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 2
+I20230223 03:19:11.457156 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 2
+I20230223 03:19:11.457175 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.457264 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.457284 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 0
+I20230223 03:19:11.457305 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 0
+I20230223 03:19:11.457325 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.457412 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.457428 13567 server.cpp:81] Begin fetch oram1 path:1
+I20230223 03:19:11.457463 13567 ORAM.cpp:94] Send 896 bits
+I20230223 03:19:11.457479 13567 server.cpp:83] Finish fetch oram1 path:1
+I20230223 03:19:11.457880 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.457901 13567 server.cpp:89] Begin fetch oram2 path:6
+I20230223 03:19:11.457927 13567 ORAM.cpp:94] Send 1792 bits
+I20230223 03:19:11.457944 13567 server.cpp:91] Finish fetch oram2 path:6
+I20230223 03:19:11.458185 13567 server.cpp:68] [server] receives 3 bits:
+I20230223 03:19:11.458205 13567 server.cpp:96] Begin fetch leaforam path:16
+I20230223 03:19:11.458240 13567 ORAM.cpp:94] Send 3808 bits
+I20230223 03:19:11.458256 13567 server.cpp:98] Finish fetch leaforam path:16
+I20230223 03:19:11.458714 13567 server.cpp:68] [server] receives 3 bits:
+I20230223 03:19:11.458735 13567 server.cpp:96] Begin fetch leaforam path:33
+I20230223 03:19:11.458766 13567 ORAM.cpp:94] Send 3264 bits
+I20230223 03:19:11.458783 13567 server.cpp:98] Finish fetch leaforam path:33
+I20230223 03:19:11.459120 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.459141 13567 server.cpp:81] Begin fetch oram1 path:0
+I20230223 03:19:11.459164 13567 ORAM.cpp:94] Send 448 bits
+I20230223 03:19:11.459180 13567 server.cpp:83] Finish fetch oram1 path:0
+I20230223 03:19:11.459275 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.459292 13567 server.cpp:89] Begin fetch oram2 path:5
+I20230223 03:19:11.459308 13567 ORAM.cpp:94] Send 896 bits
+I20230223 03:19:11.459323 13567 server.cpp:91] Finish fetch oram2 path:5
+I20230223 03:19:11.459731 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.459753 13567 server.cpp:113] Begin Write to oram1-RAMstore : index = 2
+I20230223 03:19:11.459761 13567 server.cpp:115] Finish Write to oram1-RAMstore : index = 2
+I20230223 03:19:11.459779 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.459858 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.459879 13567 server.cpp:113] Begin Write to oram1-RAMstore : index = 1
+I20230223 03:19:11.459887 13567 server.cpp:115] Finish Write to oram1-RAMstore : index = 1
+I20230223 03:19:11.459904 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.459983 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.460003 13567 server.cpp:113] Begin Write to oram1-RAMstore : index = 0
+I20230223 03:19:11.460011 13567 server.cpp:115] Finish Write to oram1-RAMstore : index = 0
+I20230223 03:19:11.460028 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.460124 13567 server.cpp:68] [server] receives 452 bits:
+I20230223 03:19:11.460144 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 13
+I20230223 03:19:11.460152 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 13
+I20230223 03:19:11.460170 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.460249 13567 server.cpp:68] [server] receives 452 bits:
+I20230223 03:19:11.460270 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 12
+I20230223 03:19:11.460278 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 12
+I20230223 03:19:11.460295 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.460402 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.460423 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 6
+I20230223 03:19:11.460431 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 6
+I20230223 03:19:11.460448 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.460530 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.460549 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 5
+I20230223 03:19:11.460557 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 5
+I20230223 03:19:11.460574 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.460656 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.460676 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 2
+I20230223 03:19:11.460693 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 2
+I20230223 03:19:11.460719 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.460799 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.460819 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 0
+I20230223 03:19:11.460827 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 0
+I20230223 03:19:11.460844 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.460944 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.460965 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 79
+I20230223 03:19:11.460973 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 79
+I20230223 03:19:11.460990 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.461082 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.461102 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 96
+I20230223 03:19:11.461112 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 96
+I20230223 03:19:11.461127 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.461208 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.461230 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 39
+I20230223 03:19:11.461246 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 39
+I20230223 03:19:11.461263 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.461352 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.461373 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 47
+I20230223 03:19:11.461381 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 47
+I20230223 03:19:11.461401 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.461477 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.461498 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 19
+I20230223 03:19:11.461506 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 19
+I20230223 03:19:11.461522 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.461612 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.461633 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 23
+I20230223 03:19:11.461649 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 23
+I20230223 03:19:11.461659 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.461762 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.461783 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 9
+I20230223 03:19:11.461791 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 9
+I20230223 03:19:11.461807 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.461890 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.461911 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 11
+I20230223 03:19:11.461920 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 11
+I20230223 03:19:11.461935 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.462028 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.462049 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 4
+I20230223 03:19:11.462056 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 4
+I20230223 03:19:11.462074 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.462153 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.462173 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 5
+I20230223 03:19:11.462181 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 5
+I20230223 03:19:11.462198 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.462287 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.462307 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 1
+I20230223 03:19:11.462324 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 1
+I20230223 03:19:11.462342 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.462424 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.462443 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 2
+I20230223 03:19:11.462451 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 2
+I20230223 03:19:11.462468 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.462548 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.462567 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 0
+I20230223 03:19:11.462575 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 0
+I20230223 03:19:11.462592 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.462671 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.462688 13567 server.cpp:81] Begin fetch oram1 path:1
+I20230223 03:19:11.462729 13567 ORAM.cpp:94] Send 896 bits
+I20230223 03:19:11.462746 13567 server.cpp:83] Finish fetch oram1 path:1
+I20230223 03:19:11.462911 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.462931 13567 server.cpp:89] Begin fetch oram2 path:1
+I20230223 03:19:11.462958 13567 ORAM.cpp:94] Send 1792 bits
+I20230223 03:19:11.462975 13567 server.cpp:91] Finish fetch oram2 path:1
+I20230223 03:19:11.463235 13567 server.cpp:68] [server] receives 3 bits:
+I20230223 03:19:11.463254 13567 server.cpp:96] Begin fetch leaforam path:30
+I20230223 03:19:11.463284 13567 ORAM.cpp:94] Send 3808 bits
+I20230223 03:19:11.463301 13567 server.cpp:98] Finish fetch leaforam path:30
+I20230223 03:19:11.463706 13567 server.cpp:68] [server] receives 3 bits:
+I20230223 03:19:11.463726 13567 server.cpp:96] Begin fetch leaforam path:22
+I20230223 03:19:11.463754 13567 ORAM.cpp:94] Send 2176 bits
+I20230223 03:19:11.463771 13567 server.cpp:98] Finish fetch leaforam path:22
+I20230223 03:19:11.464035 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.464056 13567 server.cpp:81] Begin fetch oram1 path:1
+I20230223 03:19:11.464077 13567 ORAM.cpp:94] Send 1 bits
+I20230223 03:19:11.464093 13567 server.cpp:83] Finish fetch oram1 path:1
+I20230223 03:19:11.464139 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.464155 13567 server.cpp:89] Begin fetch oram2 path:0
+I20230223 03:19:11.464179 13567 ORAM.cpp:94] Send 448 bits
+I20230223 03:19:11.464195 13567 server.cpp:91] Finish fetch oram2 path:0
+I20230223 03:19:11.464597 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.464618 13567 server.cpp:113] Begin Write to oram1-RAMstore : index = 2
+I20230223 03:19:11.464627 13567 server.cpp:115] Finish Write to oram1-RAMstore : index = 2
+I20230223 03:19:11.464643 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.464799 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.464852 13567 server.cpp:113] Begin Write to oram1-RAMstore : index = 0
+I20230223 03:19:11.464875 13567 server.cpp:115] Finish Write to oram1-RAMstore : index = 0
+I20230223 03:19:11.464920 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.465031 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.465054 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 8
+I20230223 03:19:11.465075 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 8
+I20230223 03:19:11.465101 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.465324 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.465358 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 7
+I20230223 03:19:11.465376 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 7
+I20230223 03:19:11.465387 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.465479 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.465499 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 3
+I20230223 03:19:11.465508 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 3
+I20230223 03:19:11.465518 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.465603 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.465623 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 1
+I20230223 03:19:11.465631 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 1
+I20230223 03:19:11.465641 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.465869 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.465917 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 0
+I20230223 03:19:11.465946 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 0
+I20230223 03:19:11.465981 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.466231 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.466275 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 93
+I20230223 03:19:11.466325 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 93
+I20230223 03:19:11.466357 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.466568 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.466617 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 85
+I20230223 03:19:11.466645 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 85
+I20230223 03:19:11.466712 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.466874 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.466908 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 46
+I20230223 03:19:11.466938 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 46
+I20230223 03:19:11.466970 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.467132 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.467166 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 42
+I20230223 03:19:11.467195 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 42
+I20230223 03:19:11.467228 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.467392 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.467432 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 22
+I20230223 03:19:11.467461 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 22
+I20230223 03:19:11.467494 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.467659 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.467698 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 20
+I20230223 03:19:11.467718 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 20
+I20230223 03:19:11.467739 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.467830 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.467852 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 10
+I20230223 03:19:11.467869 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 10
+I20230223 03:19:11.467888 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.467983 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.468003 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 9
+I20230223 03:19:11.468020 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 9
+I20230223 03:19:11.468039 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.468122 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.468142 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 4
+I20230223 03:19:11.468158 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 4
+I20230223 03:19:11.468178 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.468261 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.468281 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 1
+I20230223 03:19:11.468297 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 1
+I20230223 03:19:11.468317 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.468402 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.468425 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 0
+I20230223 03:19:11.468441 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 0
+I20230223 03:19:11.468461 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.468549 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.468565 13567 server.cpp:81] Begin fetch oram1 path:0
+I20230223 03:19:11.468592 13567 ORAM.cpp:94] Send 896 bits
+I20230223 03:19:11.468609 13567 server.cpp:83] Finish fetch oram1 path:0
+I20230223 03:19:11.468812 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.468833 13567 server.cpp:89] Begin fetch oram2 path:7
+I20230223 03:19:11.468873 13567 ORAM.cpp:94] Send 1792 bits
+I20230223 03:19:11.468891 13567 server.cpp:91] Finish fetch oram2 path:7
+I20230223 03:19:11.469198 13567 server.cpp:68] [server] receives 3 bits:
+I20230223 03:19:11.469219 13567 server.cpp:96] Begin fetch leaforam path:20
+I20230223 03:19:11.469269 13567 ORAM.cpp:94] Send 3808 bits
+I20230223 03:19:11.469280 13567 server.cpp:98] Finish fetch leaforam path:20
+I20230223 03:19:11.469805 13567 server.cpp:68] [server] receives 3 bits:
+I20230223 03:19:11.469826 13567 server.cpp:96] Begin fetch leaforam path:30
+I20230223 03:19:11.469856 13567 ORAM.cpp:94] Send 2176 bits
+I20230223 03:19:11.469873 13567 server.cpp:98] Finish fetch leaforam path:30
+I20230223 03:19:11.470132 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.470155 13567 server.cpp:81] Begin fetch oram1 path:0
+I20230223 03:19:11.470175 13567 ORAM.cpp:94] Send 1 bits
+I20230223 03:19:11.470191 13567 server.cpp:83] Finish fetch oram1 path:0
+I20230223 03:19:11.470247 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.470263 13567 server.cpp:89] Begin fetch oram2 path:1
+I20230223 03:19:11.470290 13567 ORAM.cpp:94] Send 1344 bits
+I20230223 03:19:11.470306 13567 server.cpp:91] Finish fetch oram2 path:1
+I20230223 03:19:11.470860 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.470881 13567 server.cpp:113] Begin Write to oram1-RAMstore : index = 1
+I20230223 03:19:11.470897 13567 server.cpp:115] Finish Write to oram1-RAMstore : index = 1
+I20230223 03:19:11.470919 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.471017 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.471038 13567 server.cpp:113] Begin Write to oram1-RAMstore : index = 0
+I20230223 03:19:11.471055 13567 server.cpp:115] Finish Write to oram1-RAMstore : index = 0
+I20230223 03:19:11.471073 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.471185 13567 server.cpp:68] [server] receives 452 bits:
+I20230223 03:19:11.471206 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 14
+I20230223 03:19:11.471222 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 14
+I20230223 03:19:11.471240 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.471343 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.471369 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 8
+I20230223 03:19:11.471386 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 8
+I20230223 03:19:11.471405 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.471494 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.471515 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 6
+I20230223 03:19:11.471531 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 6
+I20230223 03:19:11.471549 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.471638 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.471659 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 3
+I20230223 03:19:11.471683 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 3
+I20230223 03:19:11.471702 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.471801 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.471822 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 2
+I20230223 03:19:11.471838 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 2
+I20230223 03:19:11.471856 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.471936 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.471957 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 1
+I20230223 03:19:11.471973 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 1
+I20230223 03:19:11.471992 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.472071 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.472091 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 0
+I20230223 03:19:11.472107 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 0
+I20230223 03:19:11.472126 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.472225 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.472245 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 83
+I20230223 03:19:11.472255 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 83
+I20230223 03:19:11.472272 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.472364 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.472384 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 93
+I20230223 03:19:11.472401 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 93
+I20230223 03:19:11.472419 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.472501 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.472522 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 41
+I20230223 03:19:11.472537 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 41
+I20230223 03:19:11.472555 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.472642 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.472669 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 46
+I20230223 03:19:11.472697 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 46
+I20230223 03:19:11.472715 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.472802 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.472823 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 20
+I20230223 03:19:11.472839 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 20
+I20230223 03:19:11.472862 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.472944 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.472965 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 22
+I20230223 03:19:11.472981 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 22
+I20230223 03:19:11.472999 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.473090 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.473110 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 9
+I20230223 03:19:11.473127 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 9
+I20230223 03:19:11.473145 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.473228 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.473250 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 10
+I20230223 03:19:11.473266 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 10
+I20230223 03:19:11.473284 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.473374 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.473395 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 4
+I20230223 03:19:11.473412 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 4
+I20230223 03:19:11.473430 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.473523 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.473544 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 1
+I20230223 03:19:11.473562 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 1
+I20230223 03:19:11.473579 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.473672 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.473695 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 0
+I20230223 03:19:11.473711 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 0
+I20230223 03:19:11.473728 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.473805 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.473822 13567 server.cpp:81] Begin fetch oram1 path:1
+I20230223 03:19:11.473847 13567 ORAM.cpp:94] Send 896 bits
+I20230223 03:19:11.473865 13567 server.cpp:83] Finish fetch oram1 path:1
+I20230223 03:19:11.474032 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.474052 13567 server.cpp:89] Begin fetch oram2 path:0
+I20230223 03:19:11.474079 13567 ORAM.cpp:94] Send 1792 bits
+I20230223 03:19:11.474095 13567 server.cpp:91] Finish fetch oram2 path:0
+I20230223 03:19:11.474349 13567 server.cpp:68] [server] receives 3 bits:
+I20230223 03:19:11.474370 13567 server.cpp:96] Begin fetch leaforam path:52
+I20230223 03:19:11.474400 13567 ORAM.cpp:94] Send 3808 bits
+I20230223 03:19:11.474417 13567 server.cpp:98] Finish fetch leaforam path:52
+I20230223 03:19:11.474920 13567 server.cpp:68] [server] receives 3 bits:
+I20230223 03:19:11.474942 13567 server.cpp:96] Begin fetch leaforam path:23
+I20230223 03:19:11.474994 13567 ORAM.cpp:94] Send 3264 bits
+I20230223 03:19:11.475013 13567 server.cpp:98] Finish fetch leaforam path:23
+I20230223 03:19:11.475380 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.475401 13567 server.cpp:81] Begin fetch oram1 path:0
+I20230223 03:19:11.475425 13567 ORAM.cpp:94] Send 448 bits
+I20230223 03:19:11.475441 13567 server.cpp:83] Finish fetch oram1 path:0
+I20230223 03:19:11.475544 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.475562 13567 server.cpp:89] Begin fetch oram2 path:7
+I20230223 03:19:11.475589 13567 ORAM.cpp:94] Send 1344 bits
+I20230223 03:19:11.475605 13567 server.cpp:91] Finish fetch oram2 path:7
+I20230223 03:19:11.476276 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.476297 13567 server.cpp:113] Begin Write to oram1-RAMstore : index = 2
+I20230223 03:19:11.476325 13567 server.cpp:115] Finish Write to oram1-RAMstore : index = 2
+I20230223 03:19:11.476344 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.476522 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.476548 13567 server.cpp:113] Begin Write to oram1-RAMstore : index = 1
+I20230223 03:19:11.476565 13567 server.cpp:115] Finish Write to oram1-RAMstore : index = 1
+I20230223 03:19:11.476584 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.476681 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.476703 13567 server.cpp:113] Begin Write to oram1-RAMstore : index = 0
+I20230223 03:19:11.476713 13567 server.cpp:115] Finish Write to oram1-RAMstore : index = 0
+I20230223 03:19:11.476722 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.476823 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.476843 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 7
+I20230223 03:19:11.476859 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 7
+I20230223 03:19:11.476878 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.476975 13567 server.cpp:68] [server] receives 452 bits:
+I20230223 03:19:11.476996 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 14
+I20230223 03:19:11.477012 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 14
+I20230223 03:19:11.477031 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.477128 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.477149 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 3
+I20230223 03:19:11.477165 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 3
+I20230223 03:19:11.477183 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.477263 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.477283 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 6
+I20230223 03:19:11.477305 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 6
+I20230223 03:19:11.477325 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.477406 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.477425 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 1
+I20230223 03:19:11.477442 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 1
+I20230223 03:19:11.477460 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.477556 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.477576 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 2
+I20230223 03:19:11.477593 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 2
+I20230223 03:19:11.477612 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.477707 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.477727 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 0
+I20230223 03:19:11.477743 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 0
+I20230223 03:19:11.477762 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.477859 13567 server.cpp:68] [server] receives 549 bits:
+I20230223 03:19:11.477880 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 115
+I20230223 03:19:11.477896 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 115
+I20230223 03:19:11.477916 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.477996 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.478017 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 86
+I20230223 03:19:11.478034 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 86
+I20230223 03:19:11.478051 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.478133 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.478153 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 57
+I20230223 03:19:11.478170 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 57
+I20230223 03:19:11.478188 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.478273 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.478294 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 42
+I20230223 03:19:11.478310 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 42
+I20230223 03:19:11.478329 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.478413 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.478437 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 28
+I20230223 03:19:11.478454 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 28
+I20230223 03:19:11.656663 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.658730 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.658996 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 20
+I20230223 03:19:11.659067 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 20
+I20230223 03:19:11.659209 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.660125 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.660261 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 13
+I20230223 03:19:11.660311 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 13
+I20230223 03:19:11.660367 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.660796 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.660861 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 9
+I20230223 03:19:11.660900 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 9
+I20230223 03:19:11.660956 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.661576 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.661615 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 6
+I20230223 03:19:11.661643 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 6
+I20230223 03:19:11.661675 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.661899 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.661923 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 4
+I20230223 03:19:11.661934 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 4
+I20230223 03:19:11.661948 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.662039 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.662050 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 2
+I20230223 03:19:11.662061 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 2
+I20230223 03:19:11.662078 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.662256 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.662294 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 1
+I20230223 03:19:11.662331 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 1
+I20230223 03:19:11.662374 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.662649 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.662691 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 0
+I20230223 03:19:11.662730 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 0
+I20230223 03:19:11.662770 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.663051 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.663090 13567 server.cpp:81] Begin fetch oram1 path:0
+I20230223 03:19:11.663174 13567 ORAM.cpp:94] Send 896 bits
+I20230223 03:19:11.663233 13567 server.cpp:83] Finish fetch oram1 path:0
+I20230223 03:19:11.663758 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.663802 13567 server.cpp:89] Begin fetch oram2 path:1
+I20230223 03:19:11.663883 13567 ORAM.cpp:94] Send 1792 bits
+I20230223 03:19:11.663905 13567 server.cpp:91] Finish fetch oram2 path:1
+I20230223 03:19:11.664496 13567 server.cpp:68] [server] receives 3 bits:
+I20230223 03:19:11.664551 13567 server.cpp:96] Begin fetch leaforam path:19
+I20230223 03:19:11.664635 13567 ORAM.cpp:94] Send 3808 bits
+I20230223 03:19:11.664680 13567 server.cpp:98] Finish fetch leaforam path:19
+I20230223 03:19:11.666265 13567 server.cpp:68] [server] receives 3 bits:
+I20230223 03:19:11.666363 13567 server.cpp:96] Begin fetch leaforam path:61
+I20230223 03:19:11.666546 13567 ORAM.cpp:94] Send 3264 bits
+I20230223 03:19:11.666646 13567 server.cpp:98] Finish fetch leaforam path:61
+I20230223 03:19:11.667852 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.668028 13567 server.cpp:81] Begin fetch oram1 path:1
+I20230223 03:19:11.668256 13567 ORAM.cpp:94] Send 448 bits
+I20230223 03:19:11.668318 13567 server.cpp:83] Finish fetch oram1 path:1
+I20230223 03:19:11.668618 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.668650 13567 server.cpp:89] Begin fetch oram2 path:7
+I20230223 03:19:11.668697 13567 ORAM.cpp:94] Send 1344 bits
+I20230223 03:19:11.668728 13567 server.cpp:91] Finish fetch oram2 path:7
+I20230223 03:19:11.670895 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.671021 13567 server.cpp:113] Begin Write to oram1-RAMstore : index = 1
+I20230223 03:19:11.671063 13567 server.cpp:115] Finish Write to oram1-RAMstore : index = 1
+I20230223 03:19:11.671116 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.674343 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.674445 13567 server.cpp:113] Begin Write to oram1-RAMstore : index = 2
+I20230223 03:19:11.674476 13567 server.cpp:115] Finish Write to oram1-RAMstore : index = 2
+I20230223 03:19:11.674510 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.674697 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.674755 13567 server.cpp:113] Begin Write to oram1-RAMstore : index = 0
+I20230223 03:19:11.674777 13567 server.cpp:115] Finish Write to oram1-RAMstore : index = 0
+I20230223 03:19:11.674808 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.674937 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.674964 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 8
+I20230223 03:19:11.674983 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 8
+I20230223 03:19:11.675002 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.675122 13567 server.cpp:68] [server] receives 452 bits:
+I20230223 03:19:11.675148 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 14
+I20230223 03:19:11.675168 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 14
+I20230223 03:19:11.675189 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.675282 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.675307 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 3
+I20230223 03:19:11.675325 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 3
+I20230223 03:19:11.675344 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.675439 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.675465 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 6
+I20230223 03:19:11.675482 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 6
+I20230223 03:19:11.675501 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.675638 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.675665 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 1
+I20230223 03:19:11.675683 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 1
+I20230223 03:19:11.675704 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.675843 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.675868 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 2
+I20230223 03:19:11.675886 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 2
+I20230223 03:19:11.675907 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.676007 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.676070 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 0
+I20230223 03:19:11.676087 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 0
+I20230223 03:19:11.676106 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.676261 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.676287 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 82
+I20230223 03:19:11.676306 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 82
+I20230223 03:19:11.676326 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.676445 13567 server.cpp:68] [server] receives 549 bits:
+I20230223 03:19:11.676487 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 124
+I20230223 03:19:11.676520 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 124
+I20230223 03:19:11.676546 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.676681 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.676707 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 40
+I20230223 03:19:11.676724 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 40
+I20230223 03:19:11.676744 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.676851 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.676877 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 61
+I20230223 03:19:11.676893 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 61
+I20230223 03:19:11.676913 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.677016 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.677040 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 19
+I20230223 03:19:11.677058 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 19
+I20230223 03:19:11.677078 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.677175 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.677209 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 30
+I20230223 03:19:11.677227 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 30
+I20230223 03:19:11.677245 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.677354 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.677379 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 9
+I20230223 03:19:11.677398 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 9
+I20230223 03:19:11.677417 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.677518 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.677542 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 14
+I20230223 03:19:11.677560 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 14
+I20230223 03:19:11.677580 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.677673 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.677697 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 4
+I20230223 03:19:11.677713 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 4
+I20230223 03:19:11.677732 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.677814 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.677837 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 6
+I20230223 03:19:11.677855 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 6
+I20230223 03:19:11.677875 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.677973 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.677999 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 1
+I20230223 03:19:11.678016 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 1
+I20230223 03:19:11.678037 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.678136 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.678161 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 2
+I20230223 03:19:11.678179 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 2
+I20230223 03:19:11.678197 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.678292 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.678318 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 0
+I20230223 03:19:11.678334 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 0
+I20230223 03:19:11.678354 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.678462 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.678493 13567 server.cpp:81] Begin fetch oram1 path:0
+I20230223 03:19:11.678529 13567 ORAM.cpp:94] Send 896 bits
+I20230223 03:19:11.678547 13567 server.cpp:83] Finish fetch oram1 path:0
+I20230223 03:19:11.678812 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.678849 13567 server.cpp:89] Begin fetch oram2 path:3
+I20230223 03:19:11.678901 13567 ORAM.cpp:94] Send 1792 bits
+I20230223 03:19:11.678929 13567 server.cpp:91] Finish fetch oram2 path:3
+I20230223 03:19:11.679246 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.679280 13567 server.cpp:96] Begin fetch leaforam path:6
+I20230223 03:19:11.679323 13567 ORAM.cpp:94] Send 3808 bits
+I20230223 03:19:11.679344 13567 server.cpp:98] Finish fetch leaforam path:6
+I20230223 03:19:11.679993 13567 server.cpp:68] [server] receives 3 bits:
+I20230223 03:19:11.680068 13567 server.cpp:96] Begin fetch leaforam path:28
+I20230223 03:19:11.680137 13567 ORAM.cpp:94] Send 2720 bits
+I20230223 03:19:11.680157 13567 server.cpp:98] Finish fetch leaforam path:28
+I20230223 03:19:11.680658 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.680763 13567 server.cpp:89] Begin fetch oram2 path:4
+I20230223 03:19:11.680821 13567 ORAM.cpp:94] Send 1344 bits
+I20230223 03:19:11.680830 13567 server.cpp:91] Finish fetch oram2 path:4
+I20230223 03:19:11.681064 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.681128 13567 server.cpp:81] Begin fetch oram1 path:1
+I20230223 03:19:11.681164 13567 ORAM.cpp:94] Send 448 bits
+I20230223 03:19:11.681170 13567 server.cpp:83] Finish fetch oram1 path:1
+I20230223 03:19:11.681967 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.682089 13567 server.cpp:113] Begin Write to oram1-RAMstore : index = 1
+I20230223 03:19:11.682137 13567 server.cpp:115] Finish Write to oram1-RAMstore : index = 1
+I20230223 03:19:11.682178 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.682572 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.682649 13567 server.cpp:113] Begin Write to oram1-RAMstore : index = 2
+I20230223 03:19:11.682682 13567 server.cpp:115] Finish Write to oram1-RAMstore : index = 2
+I20230223 03:19:11.682718 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.683290 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.683364 13567 server.cpp:113] Begin Write to oram1-RAMstore : index = 0
+I20230223 03:19:11.683383 13567 server.cpp:115] Finish Write to oram1-RAMstore : index = 0
+I20230223 03:19:11.683423 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.683621 13567 server.cpp:68] [server] receives 452 bits:
+I20230223 03:19:11.683696 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 10
+I20230223 03:19:11.683720 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 10
+I20230223 03:19:11.683744 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.684018 13567 server.cpp:68] [server] receives 452 bits:
+I20230223 03:19:11.684072 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 11
+I20230223 03:19:11.684099 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 11
+I20230223 03:19:11.684124 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.684288 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.684322 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 4
+I20230223 03:19:11.684345 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 4
+I20230223 03:19:11.684373 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.684499 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.684530 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 5
+I20230223 03:19:11.684548 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 5
+I20230223 03:19:11.684571 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.684726 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.684751 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 1
+I20230223 03:19:11.684774 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 1
+I20230223 03:19:11.684798 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.684914 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.684944 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 2
+I20230223 03:19:11.684964 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 2
+I20230223 03:19:11.684986 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.685125 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.685173 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 0
+I20230223 03:19:11.685189 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 0
+I20230223 03:19:11.685210 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.685400 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.685438 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 69
+I20230223 03:19:11.685468 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 69
+I20230223 03:19:11.685495 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.685696 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.685748 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 91
+I20230223 03:19:11.685779 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 91
+I20230223 03:19:11.685825 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.685986 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.686028 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 34
+I20230223 03:19:11.686075 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 34
+I20230223 03:19:11.686105 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.686270 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.686303 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 45
+I20230223 03:19:11.686331 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 45
+I20230223 03:19:11.686357 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.686491 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.686533 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 16
+I20230223 03:19:11.686573 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 16
+I20230223 03:19:11.686609 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.686815 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.686874 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 22
+I20230223 03:19:11.686913 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 22
+I20230223 03:19:11.686959 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.687234 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.687319 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 7
+I20230223 03:19:11.687363 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 7
+I20230223 03:19:11.687387 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.687731 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.687871 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 10
+I20230223 03:19:11.687959 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 10
+I20230223 03:19:11.688028 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.688432 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.688493 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 3
+I20230223 03:19:11.688534 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 3
+I20230223 03:19:11.688582 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.688948 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.688987 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 4
+I20230223 03:19:11.689005 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 4
+I20230223 03:19:11.689020 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.689179 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.689201 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 1
+I20230223 03:19:11.689210 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 1
+I20230223 03:19:11.689218 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.689292 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.689301 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 0
+I20230223 03:19:11.689307 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 0
+I20230223 03:19:11.689316 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.689503 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.689536 13567 server.cpp:81] Begin fetch oram1 path:1
+I20230223 03:19:11.689579 13567 ORAM.cpp:94] Send 896 bits
+I20230223 03:19:11.689602 13567 server.cpp:83] Finish fetch oram1 path:1
+I20230223 03:19:11.689977 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.690048 13567 server.cpp:89] Begin fetch oram2 path:4
+I20230223 03:19:11.690086 13567 ORAM.cpp:94] Send 1792 bits
+I20230223 03:19:11.690125 13567 server.cpp:91] Finish fetch oram2 path:4
+I20230223 03:19:11.690445 13567 server.cpp:68] [server] receives 3 bits:
+I20230223 03:19:11.690475 13567 server.cpp:96] Begin fetch leaforam path:11
+I20230223 03:19:11.690531 13567 ORAM.cpp:94] Send 3808 bits
+I20230223 03:19:11.690552 13567 server.cpp:98] Finish fetch leaforam path:11
+I20230223 03:19:11.693251 13567 server.cpp:68] [server] receives 3 bits:
+I20230223 03:19:11.693291 13567 server.cpp:96] Begin fetch leaforam path:33
+I20230223 03:19:11.693331 13567 ORAM.cpp:94] Send 3264 bits
+I20230223 03:19:11.693367 13567 server.cpp:98] Finish fetch leaforam path:33
+I20230223 03:19:11.693811 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.693876 13567 server.cpp:89] Begin fetch oram2 path:0
+I20230223 03:19:11.693919 13567 ORAM.cpp:94] Send 1344 bits
+I20230223 03:19:11.693941 13567 server.cpp:91] Finish fetch oram2 path:0
+I20230223 03:19:11.694253 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.694306 13567 server.cpp:81] Begin fetch oram1 path:0
+I20230223 03:19:11.694329 13567 ORAM.cpp:94] Send 448 bits
+I20230223 03:19:11.694348 13567 server.cpp:83] Finish fetch oram1 path:0
+I20230223 03:19:11.695762 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.695838 13567 server.cpp:113] Begin Write to oram1-RAMstore : index = 2
+I20230223 03:19:11.695861 13567 server.cpp:115] Finish Write to oram1-RAMstore : index = 2
+I20230223 03:19:11.695889 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.696053 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.696080 13567 server.cpp:113] Begin Write to oram1-RAMstore : index = 1
+I20230223 03:19:11.696101 13567 server.cpp:115] Finish Write to oram1-RAMstore : index = 1
+I20230223 03:19:11.696121 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.696219 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.696244 13567 server.cpp:113] Begin Write to oram1-RAMstore : index = 0
+I20230223 03:19:11.696262 13567 server.cpp:115] Finish Write to oram1-RAMstore : index = 0
+I20230223 03:19:11.696281 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.696426 13567 server.cpp:68] [server] receives 452 bits:
+I20230223 03:19:11.696452 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 11
+I20230223 03:19:11.696470 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 11
+I20230223 03:19:11.696496 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.696628 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.696652 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 7
+I20230223 03:19:11.696671 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 7
+I20230223 03:19:11.696691 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.696815 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.696837 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 5
+I20230223 03:19:11.696857 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 5
+I20230223 03:19:11.696882 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.697005 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.697029 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 3
+I20230223 03:19:11.697046 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 3
+I20230223 03:19:11.697065 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.697165 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.697187 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 2
+I20230223 03:19:11.697216 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 2
+I20230223 03:19:11.697237 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.697376 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.697402 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 1
+I20230223 03:19:11.697418 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 1
+I20230223 03:19:11.697438 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.697533 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.697556 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 0
+I20230223 03:19:11.697563 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 0
+I20230223 03:19:11.697572 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.697638 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.697646 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 74
+I20230223 03:19:11.697654 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 74
+I20230223 03:19:11.697659 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.697701 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.697710 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 96
+I20230223 03:19:11.697715 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 96
+I20230223 03:19:11.697721 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.697801 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.697811 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 36
+I20230223 03:19:11.697816 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 36
+I20230223 03:19:11.697824 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.697863 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.697872 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 47
+I20230223 03:19:11.697877 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 47
+I20230223 03:19:11.697885 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.697924 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.697933 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 17
+I20230223 03:19:11.697939 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 17
+I20230223 03:19:11.697947 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.697986 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.697994 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 23
+I20230223 03:19:11.698000 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 23
+I20230223 03:19:11.698009 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.698050 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.698058 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 8
+I20230223 03:19:11.698063 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 8
+I20230223 03:19:11.698071 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.698127 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.698136 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 11
+I20230223 03:19:11.698143 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 11
+I20230223 03:19:11.698150 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.698195 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.698206 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 3
+I20230223 03:19:11.698215 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 3
+I20230223 03:19:11.698222 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.698267 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.698276 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 5
+I20230223 03:19:11.698282 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 5
+I20230223 03:19:11.698289 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.698338 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.698348 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 1
+I20230223 03:19:11.698360 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 1
+I20230223 03:19:11.698367 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.698412 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.698423 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 2
+I20230223 03:19:11.698446 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 2
+I20230223 03:19:11.698469 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.797837 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.797945 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 0
+I20230223 03:19:11.797996 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 0
+I20230223 03:19:11.798053 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.798310 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.798357 13567 server.cpp:81] Begin fetch oram1 path:1
+I20230223 03:19:11.798452 13567 ORAM.cpp:94] Send 896 bits
+I20230223 03:19:11.798501 13567 server.cpp:83] Finish fetch oram1 path:1
+I20230223 03:19:11.799024 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.799078 13567 server.cpp:89] Begin fetch oram2 path:4
+I20230223 03:19:11.799141 13567 ORAM.cpp:94] Send 1792 bits
+I20230223 03:19:11.799177 13567 server.cpp:91] Finish fetch oram2 path:4
+I20230223 03:19:11.799674 13567 server.cpp:68] [server] receives 3 bits:
+I20230223 03:19:11.799729 13567 server.cpp:96] Begin fetch leaforam path:18
+I20230223 03:19:11.799821 13567 ORAM.cpp:94] Send 3808 bits
+I20230223 03:19:11.799849 13567 server.cpp:98] Finish fetch leaforam path:18
+I20230223 03:19:11.800880 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.801055 13567 server.cpp:81] Begin fetch oram1 path:0
+I20230223 03:19:11.801234 13567 ORAM.cpp:94] Send 448 bits
+I20230223 03:19:11.801399 13567 server.cpp:83] Finish fetch oram1 path:0
+I20230223 03:19:11.804513 13567 server.cpp:68] [server] receives 2 bits:
+I20230223 03:19:11.804584 13567 server.cpp:89] Begin fetch oram2 path:1
+I20230223 03:19:11.804668 13567 ORAM.cpp:94] Send 1344 bits
+I20230223 03:19:11.804685 13567 server.cpp:91] Finish fetch oram2 path:1
+I20230223 03:19:11.805104 13567 server.cpp:68] [server] receives 3 bits:
+I20230223 03:19:11.805135 13567 server.cpp:96] Begin fetch leaforam path:56
+I20230223 03:19:11.805167 13567 ORAM.cpp:94] Send 3264 bits
+I20230223 03:19:11.805178 13567 server.cpp:98] Finish fetch leaforam path:56
+I20230223 03:19:11.806403 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.806452 13567 server.cpp:113] Begin Write to oram1-RAMstore : index = 2
+I20230223 03:19:11.806468 13567 server.cpp:115] Finish Write to oram1-RAMstore : index = 2
+I20230223 03:19:11.806478 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.806560 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.806569 13567 server.cpp:113] Begin Write to oram1-RAMstore : index = 1
+I20230223 03:19:11.806574 13567 server.cpp:115] Finish Write to oram1-RAMstore : index = 1
+I20230223 03:19:11.806582 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.806638 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.806644 13567 server.cpp:113] Begin Write to oram1-RAMstore : index = 0
+I20230223 03:19:11.806648 13567 server.cpp:115] Finish Write to oram1-RAMstore : index = 0
+I20230223 03:19:11.806655 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.806704 13567 server.cpp:68] [server] receives 452 bits:
+I20230223 03:19:11.806712 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 11
+I20230223 03:19:11.806717 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 11
+I20230223 03:19:11.806725 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.806807 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.806813 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 8
+I20230223 03:19:11.806818 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 8
+I20230223 03:19:11.806825 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.806939 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.806950 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 5
+I20230223 03:19:11.806955 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 5
+I20230223 03:19:11.806963 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.807029 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.807039 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 3
+I20230223 03:19:11.807044 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 3
+I20230223 03:19:11.807054 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.807113 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.807121 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 2
+I20230223 03:19:11.807127 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 2
+I20230223 03:19:11.807135 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.807183 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.807191 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 1
+I20230223 03:19:11.807196 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 1
+I20230223 03:19:11.807202 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.807245 13567 server.cpp:68] [server] receives 451 bits:
+I20230223 03:19:11.807251 13567 server.cpp:119] Begin Write to oram2-RAMstore : index = 0
+I20230223 03:19:11.807256 13567 server.cpp:121] Finish Write to oram2-RAMstore : index = 0
+I20230223 03:19:11.807263 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.807411 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.807432 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 81
+I20230223 03:19:11.807451 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 81
+I20230223 03:19:11.807472 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.807529 13567 server.cpp:68] [server] receives 549 bits:
+I20230223 03:19:11.807538 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 119
+I20230223 03:19:11.807543 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 119
+I20230223 03:19:11.807550 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.807610 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.807631 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 40
+I20230223 03:19:11.807651 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 40
+I20230223 03:19:11.807669 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.807780 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.807801 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 59
+I20230223 03:19:11.807817 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 59
+I20230223 03:19:11.807837 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.807937 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.807960 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 19
+I20230223 03:19:11.808007 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 19
+I20230223 03:19:11.808050 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.808208 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.808228 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 29
+I20230223 03:19:11.808244 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 29
+I20230223 03:19:11.808270 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.808405 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.808434 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 9
+I20230223 03:19:11.808467 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 9
+I20230223 03:19:11.808496 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.808634 13567 server.cpp:68] [server] receives 548 bits:
+I20230223 03:19:11.808669 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 14
+I20230223 03:19:11.808702 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 14
+I20230223 03:19:11.808743 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.808876 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.808894 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 4
+I20230223 03:19:11.808923 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 4
+I20230223 03:19:11.808950 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.809055 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.809074 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 6
+I20230223 03:19:11.809093 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 6
+I20230223 03:19:11.809113 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.809217 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.809238 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 1
+I20230223 03:19:11.809257 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 1
+I20230223 03:19:11.809278 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.809376 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.809398 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 2
+I20230223 03:19:11.809415 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 2
+I20230223 03:19:11.809437 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.809540 13567 server.cpp:68] [server] receives 547 bits:
+I20230223 03:19:11.809551 13567 server.cpp:126] Begin Write to leaforam-RAMstore : index = 0
+I20230223 03:19:11.809556 13567 server.cpp:128] Finish Write to leaforam-RAMstore : index = 0
+I20230223 03:19:11.809566 13567 server.cpp:135] Send ACK!
+I20230223 03:19:11.810406 13567 server.cpp:68] [server] receives 0 bits:
+I20230223 03:19:11.810449 13567 server.cpp:68] [server] receives 0 bits:
+I20230223 03:19:11.810459 13567 server.cpp:68] [server] receives 0 bits:
+
